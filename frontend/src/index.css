@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #20c00b;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+#back-ball, #back-ball-2 {
+  height: 5000px;
+  width: 5000px;
+  filter: blur(40px);
+  background-color: #ff6347;
+}
+
+#back-ball {
+  left: -6rem;
+  top: -2rem;
+}
+
+#back-ball-2 {
+  right: -2rem;
+  bottom: -2rem;
+}
+
+#x-mark {
+  animation: rot 3s infinite;
+}
+
+#backdrop {
+  backdrop-filter: blur(50px);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#chatscreen {
+  height: 600px;
+  overflow-y: auto;
+}
+#chatscreen::-webkit-scrollbar {
+  width: 5px;
+}
+#chatscreen::-webkit-scrollbar-thumb {
+  background-color: #ff6347;
+  border-radius: 10px;
+}
+
+#chatContainer a {
+  text-decoration: none;
+  color: #ff6347;
+}
+
+@keyframes rot {
+  0% {
+      transform: rotate(0deg);
+  }
+  50% {
+      transform: rotate(180deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}

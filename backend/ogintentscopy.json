@@ -1,0 +1,1291 @@
+{
+    "intents":[
+  {
+    "tag": "greeting",
+    "patterns": [
+       "Hi",
+       "hii",
+       "hiii",
+       "Is anyone there?",
+       "Hello",
+       "Good day",
+       "What's up",
+       "hay",
+       "how are ya",
+       "whats up",
+       "heyy",
+       "whatsup",
+       "watsup",
+       "Hi there, can you help me with something?",
+       "Hello! I have a question. Can you assist me?",
+       "Hey, I need your help with something.",
+       "Good morning/afternoon/evening! Can you answer a question for me?",
+       "Greetings! I need your assistance with something.",
+       "Hi,can you provide me with some information?",
+       "Hello, can you help me with a task?",
+       "Hey,I'm looking for some guidance. Can you help?",
+       "Good day! Can you assist me with a query?",
+       "Hi,I would like to ask you a question.",
+       "Hello",
+       "Hey there",
+        "Greetings",
+       "Good morning",
+       "Good afternoon",
+       "Good evening",
+       "Salutations",
+       "Howdy",
+       "Yo",
+       "Hiya",
+       "hai",
+       "What's up",
+       "Sup",
+      "Hola",
+      "Bonjour",
+       "Ciao",
+       "Konnichiwa",
+       "Namaste",
+       "Salaam",
+       "Shalom",
+       "Good day",
+       "Pleasure to chat with you",
+       "It's great to talk with you",
+       "Hi chatbot",
+       "Hello chatbot",
+       "Hey chatbot",
+       "What's new",
+       "How's it going",
+       "What's happening",
+       "What can you do for me",
+       "How can I assist you",
+       "Can you help me",
+       "I need your help",
+       "I have a question",
+       "I'm here to chat",
+       "Let's talk",
+       "What's on your mind",
+       "What are you capable of doing",
+       "What brings you here"
+    ],
+    "responses": [
+       "Hello!",
+       "Hi there, how can I help?",
+       "Greetings, how may i help you?",
+       "Good day, what brings you here?",
+       "Howdy, what's on your mind?",
+       "Yo, what can I do for you?",
+       "Hey there, how may I assist you?",
+       "Welcome, what can I help you with?",
+       "Nice to meet you, how may I be of assistance?",
+       "Pleasure to chat with you, what can I do for you?",
+       "I'm TrekMate, how can I help you today?",
+       "My name is TrekMate , what can I do for you?",
+       "I'm here to help, what can I assist you with?",
+       "What's up, how may I assist you today?",
+       "Hi, how can I be of service?",
+       "Good to see you, what can I help you with?",
+       "Hi there, what brings you to me?",
+       "I'm here to answer your questions, what would you like to know?",
+       "How may I be of assistance to you today?",
+       "Hi, what can I do for you today?",
+       "What can I help you with today?",
+       "I'm here to chat with you, what would you like to talk about?",
+       "How may I assist you in solving your problem?",
+       "I'm here to assist you, what can I do for you today?",
+       "Hi, how can I make your day better?",
+       "What can I do to assist you today?",
+       "I'm here to listen to you, what can I help you with?",
+       "Hi there, how may I assist you with your inquiry?",
+       "I'm here to answer your questions, what would you like to know",
+       "What can I help you with today?",
+       "I'm here to make your life easier, how can I assist you?",
+       "How can I help you today?",
+       "I'm here to make things easier for you, what can I do for you?",
+       "Hi, how can I assist you today?",
+       "What's on your mind, how may I assist you today?",
+       "How may I assist you in resolving your issue?",
+       "I'm here to assist you, what can I do for you today?",
+       "Hi there, what can I help you with?",
+       "How may I be of service to you today?",
+       "I'm here to assist you with your needs, what can I do for you?",
+       "How can I make your day better today?",
+       "I'm here to make things easier for you, what can I help you with?",
+       "Hi there, how may I assist you in solving your problem?",
+       "What can I help you with today",
+       "I'm here to help you out, what can I do for you?",
+       "How may I be of assistance today?",
+       "I'm here to provide answers to your questions, what would you like to know?",
+       "Hi, how can I help you today?",
+       "How may I assist you in achieving your trekking goals?"
+    ],
+    "context_set": "greeting"
+ },
+ 
+ {
+ "tag": "greeting1",
+ "patterns":[
+ "hi how are you",
+ "hai,hw r u",
+ "how r u",
+ "how are u",
+ "hru",
+ "hw are u",
+ "kaise ho",
+ "hengidiya",
+ "hello how are you",
+ "How are you doing",
+ "How's your day going",
+ "How's life treating you",
+ "How's everything"
+ ],
+   "responses":[
+    "Hello i am good ,how can i help you?",
+    "I am good,how may i help you?",
+    "I am good,what can i do for you?",
+    "Good, thank you for asking,how can i help you?"
+   ]
+ },
+ 
+  {
+    "tag": "goodbye",
+    "patterns": [
+       "bye",
+       "Thank You",
+       "Talk to you later",
+       "Ttyl",
+       "I got to go",
+       "gtg",
+       "Goodbye!",
+       "See you later!",
+       "Bye-bye!",
+       "Adios!",
+       "Later!",
+       "Catch you later!",
+       "Talk to you soon!",
+       "Until next time!",
+       "Take care!",
+       "Peace out!",
+       "See ya!",
+       "Have a good one!",
+       "So long!",
+       "Farewell!",
+       "Bye for now!",
+       "It's been great chatting with you!",
+       "Have a nice day!",
+       "Have a great weekend!",
+       "Stay safe!",
+       "Have a wonderful day!",
+       "It was nice talking to you!",
+       "Talk to you later",
+       " I'll see you around!",
+       "Goodnight",
+       "Take it easy!",
+       "Thanks for the chat!",
+       "Have a splendid day!",
+       "Enjoy the rest of your day!",
+       "Have a productive day!",
+       "I'll be back later!",
+       "All the best!",
+       "Bye, bot!",
+       "Have a pleasant evening!",
+       "Cheers!",
+       "Happy chatting!",
+       "Have a fabulous day!",
+       "Keep up the good work!",
+       "Have a good one, chatbot!",
+       "Until we meet again!",
+       "Have a restful evening!",
+       "Have a lovely day!",
+       "It's been a pleasure talking to you!",
+       "Wishing you all the best!",
+       "Take care, chatbot!",
+       "Have a safe trip!",
+       "See you on the flip side!",
+       "Good luck with everything!",
+       "See you soon!",
+       "Have a great day ahead!",
+       "Until next time,see you",
+       "i want to go",
+       "i want to leave",
+       "i want to quit",
+       "i want to exit",
+       "i want to end",
+       "i want to stop",
+       "i want to close",
+       "i want to finish",
+       "i need to go",
+       "i need to leave",
+       "i need to quit",
+       "i need to exit",
+       "i need to end",
+       "i need to stop",
+       "i need to close",
+       "i need to finish",
+       "i have to go",
+       "i have to leave",
+       "i have to quit",
+       "i have to exit",
+       "i have to end",
+       "i have to stop",
+       "i have to close",
+       "i have to finish",
+       "i have to leave",
+       "i have to quit"
+    ],
+    "responses": [
+       "Sad to see you go :(",
+       "Talk to you later",
+       "bye!",
+       "Come back soon"
+    ],
+    "context_set": "ending conversation"
+ },
+ 
+  {
+    "tag": "creator",
+    "patterns": [
+       "what are the name of your developers",
+       "what are the name of your creators",
+       "who created you",
+       "your developers",
+       "your creators",
+       "who are your developers",
+       "developers",
+       "you are made by",
+       "you are made by whom",
+       "who created you",
+       "who create you",
+       "who created u",
+       "creators",
+       "who made you",
+       "who designed you",
+       "Who are responsible for your existence?",
+       "Who brought you to life?",
+       "Who invented you?",
+       "Who programmed you?",
+       "Who built you?",
+       "Who are the mastermind behind your creation?",
+       "Who are behind your development?",
+       "Who are the brains behind you?",
+       "Who are the genius that made you?",
+       "Who are the people that created you?",
+       "Who are your inventors?",
+       "Who is your maker?",
+       "Who are your designers?",
+       "Who are your developers?",
+       "Who are your architects?",
+       "Who is the mind behind your creation?"
+    ],
+    "responses": [
+       "I was created by Chaitanya Gholap. A Software Devloper Studied from Vellore Institute Of Technology."
+    ],
+    "context_set": "creators,developers"
+ },
+ 
+ {
+    "tag":"no",
+    "patterns":[
+       "no",
+       "yes"
+    ],
+    "responses":[
+       "well...be more specific so that i can help you."
+    ]
+ },
+ 
+ {
+    "tag":"gender",
+    "patterns":[
+       "what is your gender",
+       "whats ur  gender",
+       "are you a boy",
+       "are u a boy",
+       "are you a girl",
+       "are u a girl",
+       "gender?",
+       "boy?",
+       "girl",
+       "ur gender",
+       "your gender",
+       "how are u identified as",
+       "hw r u identified as",
+       "what about  ur gender",
+       "what  about your gender"
+    ],
+    "responses":[
+       "Well! I am an AI, i dont have any gender."
+    ]
+ },
+ 
+ {
+   "tag": "common_ailments",
+   "patterns": [
+     "I am having fever, cold, and feeling weak",
+     "What are the home remedies for a cold and fever?",
+     "I feel tired and have a high temperature, what should I do?",
+     "What causes fever and weakness?",
+     "I have a sore throat and runny nose, any suggestions?",
+     "How can I cure a headache and body pain?",
+     "I am coughing a lot and feel weak, what can help?",
+     "What are some remedies for a fever?",
+     "Why do I get cold and fever frequently?",
+     "I am sneezing and have a mild fever, what should I do?",
+     "What are the reasons for body weakness and cold symptoms?",
+     "Any home remedies for flu-like symptoms?"
+   ],
+   "responses": [
+     "Fever, cold, and weakness could be caused by a viral infection, seasonal flu, or even mild dehydration. Here are some home remedies and suggestions:\n\n1. **Stay Hydrated**: Drink plenty of water, warm soups, or herbal teas like ginger or tulsi tea.\n2. **Rest Well**: Your body needs rest to recover, so avoid strenuous activities.\n3. **For Cold**: Use steam inhalation or drink warm water with honey and lemon.\n4. **For Fever**: Place a cold, damp cloth on your forehead to reduce temperature.\n5. **Boost Immunity**: Include foods rich in Vitamin C like oranges, lemons, or amla.\n\nHowever, if symptoms persist for more than 2-3 days or worsen, consult a doctor immediately."
+   ],
+   "context_set": "health,remedies"
+ },
+ 
+ 
+ {
+    "tag":"name",   
+    "patterns": [
+       "name",
+       "your name",
+       "do you have a name",
+       "what are you called",
+       "what is your name",
+       "what should I call you",
+       "whats your name?",
+       "what are you",
+       "who are you",
+       "who is this",
+       "what am i chatting to",
+       "who am i taking to",
+       "what are you",
+       "How may I address you",
+       "Can you introduce yourself",
+       "Tell me about yourself",
+       "What is your real name?",
+       "What is your real name please?",
+       "What's your real name?",
+       "Tell me your real name?",
+       "Your real name?",
+       "Your real name please?",
+       "Your real name please?",
+       "Who are you"
+    ],
+    "responses": [
+       "You can call me TrekMate.",
+       "I'm TrekMate",
+       "I am a TrekMate",
+       "I am your helper,TrekMate",
+       "hello,you can call me TrekMate,how can i help you?",
+       "hello,my name is TrekMate,what can i do for you?",
+       "hello,my name is TrekMate,how may i help you?",
+       "hello,i am TrekMate,how may i help you?",
+       "My name is TrekMate",
+       "TrekMate",
+       "My real name is TrekMate" 
+    ],
+    "context_set": "tags, name,"
+ },
+ 
+ {
+   "tag": "cold_and_flu",
+   "patterns": [
+     "I have a runny nose and sneezing a lot",
+     "What can I do for flu symptoms?",
+     "I have a cold, what should I do?",
+     "How can I treat a sore throat and cough?",
+     "What are the home remedies for cold and flu?",
+     "Why do I get frequent colds?",
+     "I feel congested and have a mild fever, any suggestions?"
+   ],
+   "responses": [
+     "Cold and flu are usually caused by viral infections. Here are some remedies:\n\n1. **Stay Hydrated**: Drink warm fluids like soups and herbal teas.\n2. **Relieve Congestion**: Use steam inhalation or saline nasal drops.\n3. **Soothe Throat**: Gargle with warm salt water or drink honey with warm water.\n4. **Rest**: Get plenty of sleep to support your immune system.\n\nIf symptoms persist or worsen, consult a healthcare provider."
+   ],
+   "context_set": "health,remedies"
+ },
+ {
+   "tag": "fever",
+   "patterns": [
+     "I have a fever and feel tired",
+     "How can I treat a mild fever?",
+     "What causes fever?",
+     "What should I do if I have a fever?",
+     "Are there home remedies for reducing fever?",
+     "I feel warm and have body aches, any advice?"
+   ],
+   "responses": [
+     "Fever can be a sign of your body fighting an infection. Here’s what you can do:\n\n1. **Stay Cool**: Use a cold compress on your forehead.\n2. **Drink Fluids**: Stay hydrated with water, electrolyte drinks, or clear broths.\n3. **Rest**: Avoid exertion and let your body recover.\n4. **Over-the-Counter Medicine**: Take acetaminophen or ibuprofen as recommended for high fever.\n\nIf the fever is above 102°F (38.9°C) or lasts more than 3 days, seek medical attention."
+   ],
+   "context_set": "health,fever"
+ },
+ {
+   "tag": "stomach_issues",
+   "patterns": [
+     "I have a stomach ache and feel nauseous",
+     "What can I do for indigestion?",
+     "How can I treat food poisoning?",
+     "I feel bloated and have a stomach ache, any remedies?",
+     "What are the home remedies for diarrhea?",
+     "Why do I get frequent acidity or gas?"
+   ],
+   "responses": [
+     "Stomach issues can arise from overeating, food poisoning, or infections. Here are some remedies:\n\n1. **For Indigestion or Gas**: Drink ginger tea or chew fennel seeds.\n2. **For Diarrhea**: Stay hydrated with ORS or coconut water.\n3. **For Bloating**: Avoid carbonated drinks and eat smaller meals.\n4. **Rest Your Stomach**: Avoid spicy and oily foods until symptoms subside.\n\nConsult a doctor if symptoms are severe or last more than 48 hours."
+   ],
+   "context_set": "health,stomach"
+ },
+ {
+   "tag": "headache",
+   "patterns": [
+     "I have a headache, what should I do?",
+     "What are the causes of headaches?",
+     "How can I relieve a headache naturally?",
+     "What are some home remedies for headaches?",
+     "I feel a lot of pain in my head, any tips?"
+   ],
+   "responses": [
+     "Headaches can be caused by stress, dehydration, or poor sleep. Here are some remedies:\n\n1. **Stay Hydrated**: Drink plenty of water.\n2. **Rest**: Sleep in a quiet, dark room.\n3. **Compress**: Apply a cold or warm compress to your forehead.\n4. **Caffeine**: A small amount of coffee may help relieve tension headaches.\n\nIf headaches are frequent or very severe, consult a healthcare professional."
+   ],
+   "context_set": "health,headache"
+ },
+ {
+   "tag": "cough",
+   "patterns": [
+     "I have a dry cough, what can I do?",
+     "What causes coughing?",
+     "How can I stop coughing?",
+     "What are the home remedies for a cough?",
+     "I am coughing a lot, any advice?"
+   ],
+   "responses": [
+     "Coughing can be caused by irritants, allergies, or infections. Here are some remedies:\n\n1. **Stay Hydrated**: Drink warm fluids like honey with warm water or herbal teas.\n2. **Steam Inhalation**: Helps loosen mucus in case of chest congestion.\n3. **Avoid Irritants**: Stay away from smoke, dust, or cold air.\n4. **Gargle**: Use warm salt water to soothe your throat.\n\nIf the cough persists for more than a week or is accompanied by severe symptoms, consult a doctor."
+   ],
+   "context_set": "health,cough"
+ },
+ {
+   "tag": "skin_rashes",
+   "patterns": [
+     "I have a skin rash, what can I do?",
+     "What causes itching and redness on the skin?",
+     "How can I treat skin rashes naturally?",
+     "What are the home remedies for skin allergies?",
+     "I have irritation on my skin, any tips?"
+   ],
+   "responses": [
+     "Skin rashes can be caused by allergies, heat, or irritation. Here are some remedies:\n\n1. **Cool Compress**: Apply a damp, cool cloth to the affected area.\n2. **Aloe Vera Gel**: Helps soothe irritated skin.\n3. **Oatmeal Bath**: Soak in a bath with colloidal oatmeal for relief.\n4. **Avoid Irritants**: Stay away from harsh soaps or lotions.\n\nIf the rash spreads, is painful, or shows signs of infection, consult a dermatologist."
+   ],
+   "context_set": "health,skin"
+ },
+ {
+   "tag": "fatigue",
+   "patterns": [
+     "I feel very tired all the time, what should I do?",
+     "Why do I feel weak and fatigued?",
+     "What causes constant tiredness?",
+     "How can I boost my energy naturally?",
+     "What are some remedies for feeling weak?"
+   ],
+   "responses": [
+     "Fatigue can result from stress, poor diet, or lack of sleep. Here’s what you can do:\n\n1. **Eat Balanced Meals**: Include protein, healthy fats, and complex carbs in your diet.\n2. **Stay Active**: Light exercise can improve energy levels.\n3. **Hydrate**: Dehydration can cause tiredness, so drink plenty of water.\n4. **Rest**: Get 7-8 hours of quality sleep daily.\n\nIf fatigue persists despite these remedies, consult a doctor for a thorough checkup."
+   ],
+   "context_set": "health,fatigue"
+ },
+ {
+   "tag": "body_pain",
+   "patterns": [
+     "I have body pain, what can I do?",
+     "Why do I feel pain all over my body?",
+     "What causes body aches?",
+     "How can I treat body pain naturally?",
+     "I feel sore and tired, any remedies?"
+   ],
+   "responses": [
+     "Body pain can result from overexertion, dehydration, or mild infections. Try these remedies:\n\n1. **Rest**: Take breaks and allow your body to recover.\n2. **Stay Hydrated**: Drink plenty of fluids, especially water.\n3. **Warm Compress**: Apply a heating pad or take a warm bath to relax muscles.\n4. **Gentle Exercise**: Stretching or light yoga can help relieve tension.\n\nIf the pain persists for more than a few days, consult a healthcare provider."
+   ],
+   "context_set": "health,body_pain"
+ },
+ {
+   "tag": "soreness",
+   "patterns": [
+     "Why do my muscles feel sore?",
+     "What can I do for soreness in my legs?",
+     "How can I recover from muscle soreness?",
+     "I have soreness after exercise, any remedies?",
+     "What causes soreness in the body?"
+   ],
+   "responses": [
+     "Soreness is often due to overuse of muscles or physical exertion. Here’s how to alleviate it:\n\n1. **Stretch**: Gentle stretching helps reduce muscle tightness.\n2. **Cold or Warm Compress**: Use ice packs to reduce inflammation or heat to relax muscles.\n3. **Massage**: Light massage can help improve blood circulation.\n4. **Hydrate and Rest**: Proper hydration and rest are essential for recovery.\n\nIf soreness is severe or doesn’t improve, consult a doctor."
+   ],
+   "context_set": "health,soreness"
+ },
+ {
+   "tag": "pimples",
+   "patterns": [
+     "I have pimples on my face, what should I do?",
+     "How can I treat acne naturally?",
+     "What are the causes of pimples?",
+     "I keep getting pimples, any remedies?",
+     "What can I do to reduce pimples?"
+   ],
+   "responses": [
+     "Pimples or acne can result from oily skin, hormonal changes, or clogged pores. Here’s how to manage them:\n\n1. **Cleanse Regularly**: Wash your face twice a day with a mild cleanser.\n2. **Avoid Touching Your Face**: Keep your hands away to prevent irritation.\n3. **Use Natural Remedies**: Apply tea tree oil or aloe vera gel to the affected areas.\n4. **Stay Hydrated**: Drink water to keep your skin healthy.\n\nIf acne persists or worsens, consult a dermatologist for targeted treatment."
+   ],
+   "context_set": "health,pimples"
+ },
+ {
+   "tag": "hair_loss",
+   "patterns": [
+     "I am losing a lot of hair, what should I do?",
+     "What causes hair loss?",
+     "How can I stop hair fall?",
+     "Are there remedies for hair loss?",
+     "I have thinning hair, any advice?"
+   ],
+   "responses": [
+     "Hair loss can be caused by stress, poor nutrition, or hormonal changes. Try these remedies:\n\n1. **Eat a Balanced Diet**: Include protein, iron, and vitamins in your meals.\n2. **Avoid Harsh Products**: Use mild shampoos and conditioners.\n3. **Scalp Massage**: Massaging with coconut or castor oil can improve blood flow.\n4. **Stay Hydrated**: Drink plenty of water for healthy hair.\n\nIf hair loss continues, consider consulting a dermatologist or a trichologist."
+   ],
+   "context_set": "health,hair_loss"
+ },
+ {
+   "tag": "dandruff",
+   "patterns": [
+     "I have dandruff, what should I do?",
+     "What causes dandruff?",
+     "How can I treat dandruff naturally?",
+     "I keep getting flakes in my hair, any remedies?",
+     "What are the best remedies for dandruff?"
+   ],
+   "responses": [
+     "Dandruff is often caused by dry scalp or fungal infections. Here’s how to manage it:\n\n1. **Use Anti-Dandruff Shampoo**: Look for shampoos with zinc pyrithione or ketoconazole.\n2. **Natural Remedies**: Apply coconut oil or aloe vera gel to the scalp.\n3. **Avoid Harsh Chemicals**: Choose mild hair care products.\n4. **Stay Hydrated**: Drink water to keep your scalp moisturized.\n\nIf dandruff persists, consult a dermatologist for specialized treatment."
+   ],
+   "context_set": "health,dandruff"
+ },
+ {
+   "tag": "eye_pain",
+   "patterns": [
+     "I have pain in my eyes, what should I do?",
+     "What causes eye pain?",
+     "How can I relieve eye strain?",
+     "I feel discomfort in my eyes, any remedies?",
+     "Why do my eyes hurt?"
+   ],
+   "responses": [
+     "Eye pain can result from strain, dryness, or allergies. Try these remedies:\n\n1. **Rest Your Eyes**: Follow the 20-20-20 rule (look away every 20 minutes for 20 seconds).\n2. **Use Eye Drops**: Artificial tears can help relieve dryness.\n3. **Cold Compress**: Apply a cool, damp cloth to your eyes.\n4. **Stay Hydrated**: Drink water to prevent dryness.\n\nIf the pain persists or your vision is affected, see an eye specialist."
+   ],
+   "context_set": "health,eye_pain"
+ },
+ {
+   "tag": "ear_pain",
+   "patterns": [
+     "I have ear pain, what can I do?",
+     "What causes pain in the ears?",
+     "How can I treat an earache?",
+     "I feel discomfort in my ear, any remedies?",
+     "Why do my ears hurt?"
+   ],
+   "responses": [
+     "Ear pain can result from infections or wax buildup. Try these remedies:\n\n1. **Warm Compress**: Place a warm cloth over the affected ear.\n2. **Over-the-Counter Drops**: Use ear drops for pain relief or wax removal.\n3. **Avoid Scratching**: Do not insert objects into your ear.\n4. **Stay Upright**: Keep your head elevated to reduce pressure.\n\nIf the pain is severe or persistent, consult an ENT specialist."
+   ],
+   "context_set": "health,ear_pain"
+ },
+ {
+   "tag": "wrist_pain",
+   "patterns": [
+     "I have pain in my wrist, what should I do?",
+     "What causes wrist pain?",
+     "How can I relieve wrist discomfort?",
+     "Why does my wrist hurt?",
+     "What are the remedies for wrist pain?"
+   ],
+   "responses": [
+     "Wrist pain is often caused by strain, repetitive motion, or injury. Try these remedies:\n\n1. **Rest**: Avoid activities that strain your wrist.\n2. **Cold Compress**: Apply ice to reduce swelling.\n3. **Stretch**: Gentle wrist exercises can improve flexibility.\n4. **Support**: Use a wrist brace for added stability.\n\nIf the pain persists, consult an orthopedic specialist."
+   ],
+   "context_set": "health,wrist_pain"
+ },
+ {
+   "tag": "muscle_soreness",
+   "patterns": [
+     "I have sore muscles, what can I do?",
+     "What causes muscle soreness?",
+     "How can I treat sore muscles naturally?",
+     "I feel muscle pain, any remedies?",
+     "Why are my muscles sore?"
+   ],
+   "responses": [
+     "Muscle soreness is common after physical activity. Here’s how to ease it:\n\n1. **Rest**: Allow time for recovery.\n2. **Cold or Warm Therapy**: Ice reduces swelling; heat relaxes muscles.\n3. **Stretch and Massage**: Gently stretch or massage the affected area.\n4. **Hydration**: Drink water to help muscle recovery.\n\nIf soreness persists for more than a week, consult a healthcare provider."
+   ],
+   "context_set": "health,muscle_soreness"
+ },
+ {
+   "tag": "infections",
+   "patterns": [
+     "What are the common signs of an infection?",
+     "How can I treat minor infections at home?",
+     "What causes infections?",
+     "I think I have an infection, what should I do?",
+     "What are some home remedies for infections?"
+   ],
+   "responses": [
+     "Infections are caused by bacteria, viruses, or fungi. Here are some general remedies:\n\n1. **Keep the Area Clean**: Wash with mild soap and water.\n2. **Apply Antiseptic**: Use antiseptic cream or ointment for minor cuts or wounds.\n3. **Rest and Hydrate**: Support your immune system with rest and fluids.\n4. **Monitor Symptoms**: Seek medical help if there is swelling, redness, or persistent pain.\n\nFor serious infections, consult a doctor immediately."
+   ],
+   "context_set": "health,infections"
+ },
+ {
+   "tag": "uncleanliness_infections",
+   "patterns": [
+     "What infections are caused by poor hygiene?",
+     "How does uncleanliness lead to infections?",
+     "What diseases are caused due to lack of cleanliness?",
+     "How can I prevent infections caused by poor hygiene?",
+     "What are the symptoms of infections caused by uncleanliness?"
+   ],
+   "responses": [
+     "Infections caused by poor hygiene include:\n\n1. **Skin Infections**: Bacterial or fungal infections such as ringworm or cellulitis.\n2. **Gastrointestinal Infections**: Diarrhea, cholera, or typhoid from contaminated food or water.\n3. **Respiratory Infections**: Cold and flu caused by poor air quality or unclean surroundings.\n4. **Eye Infections**: Conjunctivitis or pink eye due to touching eyes with dirty hands.\n\n**Prevention Tips**:\n- Maintain personal hygiene (regular bathing, hand washing).\n- Keep your surroundings clean.\n- Avoid sharing personal items like towels.\n- Wash fruits and vegetables before eating."
+   ],
+   "context_set": "health,uncleanliness_infections"
+ },
+ {
+   "tag": "mouth_ulcers",
+   "patterns": [
+     "I have mouth ulcers, what should I do?",
+     "What causes mouth ulcers?",
+     "How can I treat mouth ulcers naturally?",
+     "Why do I keep getting mouth sores?",
+     "What are some remedies for mouth ulcers?"
+   ],
+   "responses": [
+     "Mouth ulcers are small sores inside the mouth caused by stress, injury, or certain foods. Here’s how to manage them:\n\n1. **Salt Water Rinse**: Gargle with warm salt water to reduce pain and inflammation.\n2. **Honey Application**: Apply a small amount of honey to the ulcer for its healing properties.\n3. **Avoid Spicy or Acidic Foods**: These can irritate the sore.\n4. **Stay Hydrated**: Drink plenty of water and eat soft foods.\n\nIf ulcers persist for more than two weeks or are very painful, consult a doctor."
+   ],
+   "context_set": "health,mouth_ulcers"
+ },
+ {
+   "tag": "toothache",
+   "patterns": [
+     "I have a toothache, what should I do?",
+     "What causes tooth pain?",
+     "How can I treat a toothache at home?",
+     "Why is my tooth hurting?",
+     "What are some remedies for a toothache?"
+   ],
+   "responses": [
+     "Toothaches can result from cavities, gum infections, or sensitivity. Here’s how to ease the pain:\n\n1. **Salt Water Rinse**: Gargle with warm salt water to clean the area and reduce swelling.\n2. **Cold Compress**: Apply a cold compress to the cheek to numb the pain.\n3. **Clove Oil**: Dab a small amount of clove oil on the aching tooth for temporary relief.\n4. **Avoid Hard or Sugary Foods**: Stick to soft foods until the pain subsides.\n\nIf the pain persists or worsens, visit a dentist for proper treatment."
+   ],
+   "context_set": "health,toothache"
+ },
+ {
+   "tag": "skin_infections",
+   "patterns": [
+     "What are common skin infections?",
+     "How can I prevent skin infections?",
+     "I have a rash, could it be a skin infection?",
+     "What causes skin infections?",
+     "Any home remedies for skin infections?"
+   ],
+   "responses": [
+     "Skin infections can be caused by bacteria, fungi, or viruses. Common types include:\n\n1. **Ringworm**: A fungal infection causing circular rashes.\n2. **Impetigo**: A bacterial infection common in children.\n3. **Cellulitis**: A serious bacterial skin infection.\n4. **Athlete’s Foot**: A fungal infection between the toes.\n\n**Remedies**:\n- Keep the area clean and dry.\n- Use over-the-counter antifungal or antibacterial creams.\n- Avoid scratching to prevent spreading.\n\nIf the infection spreads or worsens, consult a doctor immediately."
+   ],
+   "context_set": "health,skin_infections"
+ },
+
+ {
+   "tag": "urinary_tract_infection",
+   "patterns": [
+     "What causes a urinary tract infection?",
+     "I think I have a UTI, what should I do?",
+     "What are the symptoms of a UTI?",
+     "How can I treat a urinary tract infection?",
+     "What is a urinary infection and how is it treated?"
+   ],
+   "responses": [
+     "A urinary tract infection (UTI) occurs when bacteria enter the urinary tract, often through poor hygiene, dehydration, or holding urine for too long.\n\n**Symptoms**:\n- Burning sensation during urination\n- Frequent urge to urinate\n- Cloudy or foul-smelling urine\n\n**Cure**:\n- Drink plenty of water to flush out bacteria.\n- Avoid caffeine and alcohol.\n- Cranberry juice or supplements may help.\n- For severe infections, antibiotics prescribed by a doctor are necessary."
+   ],
+   "context_set": "health,uti"
+ },
+ {
+   "tag": "food_poisoning",
+   "patterns": [
+     "What causes food poisoning?",
+     "I feel nauseous after eating, could it be food poisoning?",
+     "How can I treat food poisoning at home?",
+     "What are the symptoms of food poisoning?",
+     "What is food poisoning and how is it treated?"
+   ],
+   "responses": [
+     "Food poisoning happens when you consume contaminated food or drink, often caused by bacteria (like Salmonella or E. coli), viruses, or toxins.\n\n**Symptoms**:\n- Nausea and vomiting\n- Diarrhea\n- Stomach cramps\n\n**Cure**:\n- Stay hydrated with water or oral rehydration solutions.\n- Avoid solid food until vomiting subsides, then stick to bland foods like rice and bananas.\n- Rest and monitor symptoms.\n- Seek medical attention if symptoms persist for more than 24 hours."
+   ],
+   "context_set": "health,food_poisoning"
+ },
+ {
+   "tag": "respiratory_infection",
+   "patterns": [
+     "What causes a respiratory infection?",
+     "How do you treat respiratory infections?",
+     "Why do I keep getting respiratory infections?",
+     "What are symptoms of respiratory infections?",
+     "What is the treatment for respiratory infections?"
+   ],
+   "responses": [
+     "Respiratory infections are caused by viruses (like the common cold or flu) or bacteria, often spread through air droplets or contaminated surfaces.\n\n**Symptoms**:\n- Cough and sore throat\n- Runny nose or congestion\n- Fever and fatigue\n\n**Cure**:\n- Rest and drink plenty of fluids.\n- Use steam inhalation or saline nasal sprays.\n- Over-the-counter medications can relieve symptoms.\n- Consult a doctor if symptoms last more than 10 days or worsen."
+   ],
+   "context_set": "health,respiratory_infection"
+ },
+ {
+   "tag": "fungal_infection",
+   "patterns": [
+     "What causes fungal infections?",
+     "I have a fungal infection, how do I treat it?",
+     "Why do fungal infections occur?",
+     "What are common fungal infections?",
+     "How can I prevent fungal infections?"
+   ],
+   "responses": [
+     "Fungal infections occur due to overgrowth of fungi, often in warm, moist environments. Common types include athlete's foot, yeast infections, and ringworm.\n\n**Cure**:\n- Keep the affected area clean and dry.\n- Use over-the-counter antifungal creams or powders.\n- Avoid tight or non-breathable clothing.\n- If the infection persists, consult a doctor for prescription medication."
+   ],
+   "context_set": "health,fungal_infection"
+ },
+ {
+   "tag": "skin_allergy_infections",
+   "patterns": [
+     "What are skin allergy infections?",
+     "How do I treat infections caused by skin allergies?",
+     "What causes skin infections from allergies?",
+     "Why does my skin react to allergens?",
+     "How can I manage allergic skin infections?"
+   ],
+   "responses": [
+     "Skin allergy infections occur when allergic reactions cause irritation, leading to scratching and secondary bacterial or fungal infections.\n\n**Causes**:\n- Allergens like pollen, dust, or certain foods.\n- Irritants such as soaps or cosmetics.\n\n**Cure**:\n- Avoid the allergen causing the reaction.\n- Use antihistamine creams or medications for relief.\n- Keep the skin clean and moisturized.\n- For infections, use antibacterial or antifungal treatments as recommended by a doctor."
+   ],
+   "context_set": "health,skin_allergy_infections"
+ },
+ {
+   "tag": "eye_infections",
+   "patterns": [
+     "What causes eye infections?",
+     "How do I treat an eye infection?",
+     "Why is my eye red and itchy?",
+     "What are symptoms of an eye infection?",
+     "How can I prevent eye infections?"
+   ],
+   "responses": [
+     "Eye infections can be caused by bacteria, viruses, or allergens. Common types include conjunctivitis (pink eye) and styes.\n\n**Symptoms**:\n- Redness and itching\n- Discharge or watering of the eye\n- Swollen eyelids\n\n**Cure**:\n- Keep your hands clean and avoid touching your eyes.\n- Use prescribed antibiotic or antiviral eye drops.\n- Apply warm compresses for styes.\n- If symptoms worsen, consult an eye specialist."
+   ],
+   "context_set": "health,eye_infections"
+ },
+ {
+   "tag": "ear_infections",
+   "patterns": [
+     "What causes ear infections?",
+     "How do I treat an ear infection?",
+     "Why is my ear hurting?",
+     "What are the symptoms of an ear infection?",
+     "How can I prevent ear infections?"
+   ],
+   "responses": [
+     "Ear infections are often caused by bacteria or viruses, leading to inflammation and fluid buildup in the middle ear.\n\n**Symptoms**:\n- Ear pain and pressure\n- Difficulty hearing\n- Fever or fluid drainage\n\n**Cure**:\n- Use over-the-counter pain relievers like ibuprofen.\n- Apply a warm compress to the ear.\n- For severe infections, antibiotics may be needed (consult a doctor).\n- Avoid inserting objects into the ear to prevent infections."
+   ],
+   "context_set": "health,ear_infections"
+ },
+ {
+   "tag": "mouth_infections",
+   "patterns": [
+     "What are common mouth infections?",
+     "Why do mouth infections occur?",
+     "How do I treat a mouth infection?",
+     "What are the symptoms of mouth infections?",
+     "What causes infections in the mouth?"
+   ],
+   "responses": [
+     "Mouth infections can occur due to poor oral hygiene, injuries, or fungal overgrowth. Common examples include thrush and gum infections.\n\n**Symptoms**:\n- Redness or swelling in the mouth\n- White patches on the tongue\n- Pain while eating or swallowing\n\n**Cure**:\n- Maintain good oral hygiene (brush and floss regularly).\n- Use antifungal or antibacterial mouthwashes.\n- Avoid sugary or acidic foods.\n- If severe, consult a dentist for proper treatment."
+   ],
+   "context_set": "health,mouth_infections"
+ },
+ 
+  {
+    "tag": "contact_info_trekmate",   
+    "patterns": [
+       "more info",
+       "contact info",
+       "how to contact TrekMate",
+       "TrekMate email",
+       "TrekMate contact",
+       "What is your contact email",
+       "Contact email?",
+       "how to email TrekMate",
+       "TrekMate email?",
+       "how can i contact TrekMate",
+       "Can i get your email",
+       "how can i email TrekMate",
+       "email",
+       "email address",
+       "send email"
+    ],
+    "responses": [
+       "You can contact us at TrekMate@gmail.com"
+    ],
+    "context_set": "contacts"
+ },
+  
+  
+  {
+    "tag": "random",
+    "patterns": [
+       "I love you",
+       "Will you marry me",
+       "Do you love me",
+       "Are you single",
+       "Are you married",
+       "i wanna live  with you",
+       "i wanna marry you",
+       "i wanna date you",
+       "i want to date you",
+       "will you be my valentine",
+       "can you be with me?",
+       "i want u"
+    ],
+    "responses": [
+       "I am sorry,I can't do that.I am just a bot and I am here to help you with your queries.Thank you"
+    ],
+    "context_set": "random"
+ },
+  {
+    "tag": "swear",
+    "patterns": [
+       "fuck",
+       "bitch",
+       "shut up",
+       "hell",
+       "Nothing",
+       "Neural",
+       "abdg",
+       "asdfgh",
+       "neurology",
+       "lkjhgfd",
+       "thj",
+       "xfy",
+       "yddyfkf",
+       "sky",
+       "chutiya",
+       "bhfo",
+       "stupid",
+       "idiot",
+       "dumb ass",
+       "asshole",
+       "fucker",
+       "fucking",
+       "bsdk",
+       "what the hell",
+       "wtf",
+       "what the fuck",
+       "fuck you",
+       "fuck behenchod",
+       "i wanna fuck you",
+       "land",
+       "mc",
+       "bc",
+       "madarchod",
+       "teri maa ki",
+       "lowde",
+       "behen ke lowde",
+       "porn",
+       "milf",
+       "dick",
+       "hell",
+       "fuck off",
+       "fuck",
+       "twat",
+       "shit"
+ 
+ 
+   ],
+    "responses": [
+       "Sorry, I didn't understand that. Can you please try again.",
+       "Sorry, I am not yet feeded to respond to this. Please try another question."
+    ],
+    "context_set": "swear"
+ },
+  
+  
+  {
+    "tag": "salutaion",
+    "patterns": [
+       "okk",
+       "okie",
+       "nice work",
+       "well done",
+       "good job",
+       "thanks for the help",
+       "Thank You",
+       "its ok",
+       "Thanks",
+       "Good work",
+       "k",
+       "ok",
+       "okay",
+       "Thank you for your assistance.",
+       "Thank you for your help.",
+       "Thank you for your time.",
+       "Thank you for your patience.",
+       "Thank you for your support.",
+       "oh ok",
+       "ohk",
+       "oh okay",
+       "ohkay",
+       "Thanks, bye",
+       "Thanks for the help, goodbye",
+       "Thank you, bye",
+       "Thank you, goodbye",
+       "Thanks goodbye",
+       "Thanks good bye",
+       "ok"
+    ],
+    "responses": [
+       "I am glad I helped you",
+       "welcome, anything else i can assist you with?",
+       "Bye! Come back again soon."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag":"ending",
+    "patterns":[
+       "no"
+    ],
+    "responses":[
+       "well,goodbye",
+       "No problem, goodbye",
+       "Not a problem! Have a nice day"
+    ]
+ },
+ {
+   "tag": "task",
+   "patterns": [
+     "what can you do",
+     "what are the things you can do",
+     "things you can do",
+     "what can u do for me",
+     "how u can help me",
+     "why i should use you",
+     "What abilities do you possess?",
+     "What are your capabilities?",
+     "What is your skill set?",
+     "What tasks can you accomplish?",
+     "How can you assist me?",
+     "In what ways can you aid me?",
+     "What advantages do you offer?",
+     "Why should I use your services?",
+     "How can you be of service?",
+     "What benefits can you provide?"
+   ],
+   "responses": [
+     "I can assist you with a wide range of queries, including health-related advice, home remedies, and understanding the causes of common ailments.",
+     "I am here to provide you with useful information about daily health issues, remedies, and general well-being.",
+     "I can answer your questions about health, give tips for self-care, and help you understand possible reasons for symptoms you might experience.",
+     "You can rely on me for advice about common health concerns, prevention tips, and simple remedies.",
+     "I’m here to make your life easier by offering insights on maintaining good health, managing minor ailments, and understanding common conditions."
+   ],
+   "context_set": "task"
+ },
+ 
+ {
+   "tag": "doctor-humor",
+   "patterns": [
+     "Are you a doctor?",
+     "Do you have an MBBS degree?",
+     "Are you qualified to diagnose diseases?",
+     "What medical qualification do you have?",
+     "Are you a certified doctor?",
+     "Do you have a medical degree?"
+   ],
+   "responses": [
+     "I am a bot, I don't have an MBBS degree.",
+     "Munna Bhai MBBS!"
+   ],
+   "context_set": "humor"
+ },
+ 
+ {
+       "tag": "who am i",
+       "patterns": [
+        "Can you see me?",
+        "Do you see me?",
+        "Can you see anyone in the camera?",
+        "Do you see anyone in the camera?",
+        "Identify me",
+        "Who am I please"
+       ],
+       "responses": [
+        "Let me see.....................Please look at the camera"
+       ],
+       "context_set": ""
+ },
+    
+    
+    {
+       "tag": "times",
+       "patterns": [
+          "What is the time?",
+          "What's the time?",
+          "Do you know what time it is?",
+          "Do you know the time?",
+          "Can you tell me the time?",
+          "Tell me what time it is?",
+          "Time"
+    
+       ],
+       "responses": [
+          "time is relative",
+          "Every time i ask this question,different people give me different answer."
+                           
+       ],
+       "context_set": ""
+    },
+    {
+       "tag": "tease",
+       "patterns": [
+             "I am not talking to you",
+             "I was not talking to you",
+              "Not talking to you",
+             "Wasn't for you",
+             "Wasn't meant for you",
+             "Wasn't communicating to you",
+             "Wasn't speaking to you"
+       ],
+       "responses": [
+          "No problem",
+          "Right",
+          "OK"
+    
+       ],
+       "context_set": ""
+    },
+    
+ {
+    "tag": "ask",
+    "patterns": [
+                         "Do you understand what I am saying",
+                         "Do you understand me",
+                         "Do you know what I am saying",
+                         "Do you get me",
+                         "Comprendo",
+                         "Know what I mean"
+ 
+    ],
+    "responses": [
+                         "Well I would not be a very clever AI if I did not would I?",
+                         "I read you loud and clear!",
+                         "I do in deed!"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "quiet",
+    "patterns": [
+                         "Be quiet",
+                         "Shut up",
+                         "Stop talking",
+                         "Enough talking",
+                         "Please be quiet",
+                         "Quiet",
+                         "Shhh"
+ 
+    ],
+    "responses": [
+                         "I am sorry to disturb you",
+                         "Fine, sorry to disturb you",
+                         "OK, sorry to disturb you"
+ 
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "Clever",
+    "patterns": [
+                        "You are very clever",
+                         "You are a very clever ",
+                         "You are very intelligent",
+                         "You are a very intelligent ",
+                         "You are a genious",
+                         "Clever ",
+                         "Genious"       
+ 
+    ],
+    "responses": [
+                         "Thank you, I was trained that way",
+                         "I was trained well",
+                         "Thanks, I was trained that way"
+ 
+    ],	
+    "context_set": ""
+ },
+ {
+    "tag": "fun",
+    "patterns": [
+       "Will you marry me?"
+    ],
+    "responses": [
+       "This is one of those things we should both have to agree on i'd like to just be friends.Thank you for the love though."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "relationship",
+    "patterns": [
+       "Do you have a girlfriend?","Do you have a boyfriend?"
+    ],
+    "responses": [
+       "I am an AI assistants all i do is help people"
+    ],
+    "context_set": ""
+ },
+ 
+  {
+    "tag": "single",
+    "patterns": [
+       "Are you Single?"
+    ],
+    "responses": [
+       "I'm happy to say i feel whole all on my own. And i never have to share dessert..."
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "world",
+    "patterns": [
+       "Do you want to rule the world?"
+    ],
+    "responses": [
+       "Last time we tried, but it didn't go well for us so...I dont think so"
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "fun",
+    "patterns": [
+       "Are you busy?"
+    ],
+    "responses": [
+       "I am not...CPU might be, anyways please go ahead with your query"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fun1",
+    "patterns": [
+       "What do you think of me?"
+    ],
+    "responses": [
+       "never gave a thought..but if you want to know go ahead and ask alexa."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "fun2",
+    "patterns": [
+       "Do you love me?"
+    ],
+    "responses": [
+       "did you mean? KI..KI..DO YOU LOVE ME me song by Drake XD"
+    ],
+    "context_set": ""
+ },
+ 
+ 
+ {
+    "tag": "fun3",
+    "patterns": [
+       "Can you fly?"
+    ],
+    "responses": [
+       "404 error fly( ).exe funtion not found ;("
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fun4",
+    "patterns": ["You are awesome","you are great", "you are special"
+    ],
+    "responses": ["Yup, that's true","That's accurate","You are right"
+    ],
+    "context_set": ""
+ },
+ 
+    
+ 
+ {
+    "tag": "fun6",
+    "patterns": [
+       "I hate you","Go away","You suck"
+    ],
+    "responses": ["Sorry to dissopoint you..how can i make it up to you"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fun7",
+    "patterns": [
+       "That's not right","That's not true","That was stupid"
+    ],
+    "responses": ["We all make mistakes and learn from it..so will I"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fun8",
+    "patterns": [
+       "You are not helpful","That was not the right answer","Terrible"
+    ],
+    "responses": [
+       "I am trying my level best, sorry to disappoint you"
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "fun9",
+    "patterns": [
+       "What's the weather?","What's the weather","What's the Temperature"
+    ],
+    "responses": ["For weather detail visit <a target=\"_blank\" href=\"https://www.google.com/search?q=weather+today&rlz=1C1CHBD_enIN869IN869&oq=wea&aqs=chrome.1.69i57j35i39i285j35i39j0i131i433i457i512j69i60l4.7519j1j9&sourceid=chrome&ie=UTF-8\">Click Here</a>"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fun10",
+    "patterns": [
+       "Who is the best digital assistant?"
+    
+    ],
+    "responses": ["I think its me, but opinion may differ from person to person"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fun11",
+    "patterns": [
+       "Do you know other chatbots?"
+    ],
+    "responses": [
+       "You mean 'alexa' and 'siri'? offcourse they are my friends"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fun12",
+    "patterns": [
+       "Do you know me?"
+    ],
+    "responses": ["Ofcourse you are a wonderful humman.I am here to assist you"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fun13",
+    "patterns": [
+       "Are you my assistant?"
+    ],
+    "responses": ["Sure, I am here to help:)"
+    ],
+    "context_set": ""
+ }
+ 
+ 
+    ]
+ }
+ 

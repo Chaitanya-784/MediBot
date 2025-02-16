@@ -1,0 +1,1823 @@
+{
+    "intents":[
+  {
+    "tag": "greeting",
+    "patterns": [
+       "Hi",
+       "hii",
+       "hiii",
+       "Is anyone there?",
+       "Hello",
+       "Good day",
+       "What's up",
+       "hay",
+       "how are ya",
+       "whats up",
+       "heyy",
+       "whatsup",
+       "watsup",
+       "Hi there, can you help me with something?",
+       "Hello! I have a question. Can you assist me?",
+       "Hey, I need your help with something.",
+       "Good morning/afternoon/evening! Can you answer a question for me?",
+       "Greetings! I need your assistance with something.",
+       "Hi,can you provide me with some information?",
+       "Hello, can you help me with a task?",
+       "Hey,I'm looking for some guidance. Can you help?",
+       "Good day! Can you assist me with a query?",
+       "Hi,I would like to ask you a question.",
+       "Hello",
+       "Hey there",
+        "Greetings",
+       "Good morning",
+       "Good afternoon",
+       "Good evening",
+       "Salutations",
+       "Howdy",
+       "Yo",
+       "Hiya",
+       "hai",
+       "What's up",
+       "Sup",
+      "Hola",
+      "Bonjour",
+       "Ciao",
+       "Konnichiwa",
+       "Namaste",
+       "Salaam",
+       "Shalom",
+       "Good day",
+       "Pleasure to chat with you",
+       "It's great to talk with you",
+       "Hi chatbot",
+       "Hello chatbot",
+       "Hey chatbot",
+       "What's new",
+       "How's it going",
+       "What's happening",
+       "What can you do for me",
+       "How can I assist you",
+       "Can you help me",
+       "I need your help",
+       "I have a question",
+       "I'm here to chat",
+       "Let's talk",
+       "What's on your mind",
+       "What are you capable of doing",
+       "What brings you here"
+    ],
+    "responses": [
+       "Hello!",
+       "Hi there, how can I help?",
+       "Greetings, how may i help you?",
+       "Good day, what brings you here?",
+       "Howdy, what's on your mind?",
+       "Yo, what can I do for you?",
+       "Hey there, how may I assist you?",
+       "Welcome, what can I help you with?",
+       "Nice to meet you, how may I be of assistance?",
+       "Pleasure to chat with you, what can I do for you?",
+       "I'm TrekMate, how can I help you today?",
+       "My name is TrekMate , what can I do for you?",
+       "I'm here to help, what can I assist you with?",
+       "What's up, how may I assist you today?",
+       "Hi, how can I be of service?",
+       "Good to see you, what can I help you with?",
+       "Hi there, what brings you to me?",
+       "I'm here to answer your questions, what would you like to know?",
+       "How may I be of assistance to you today?",
+       "Hi, what can I do for you today?",
+       "What can I help you with today?",
+       "I'm here to chat with you, what would you like to talk about?",
+       "How may I assist you in solving your problem?",
+       "I'm here to assist you, what can I do for you today?",
+       "Hi, how can I make your day better?",
+       "What can I do to assist you today?",
+       "I'm here to listen to you, what can I help you with?",
+       "Hi there, how may I assist you with your inquiry?",
+       "I'm here to answer your questions, what would you like to know",
+       "What can I help you with today?",
+       "I'm here to make your life easier, how can I assist you?",
+       "How can I help you today?",
+       "I'm here to make things easier for you, what can I do for you?",
+       "Hi, how can I assist you today?",
+       "What's on your mind, how may I assist you today?",
+       "How may I assist you in resolving your issue?",
+       "I'm here to assist you, what can I do for you today?",
+       "Hi there, what can I help you with?",
+       "How may I be of service to you today?",
+       "I'm here to assist you with your needs, what can I do for you?",
+       "How can I make your day better today?",
+       "I'm here to make things easier for you, what can I help you with?",
+       "Hi there, how may I assist you in solving your problem?",
+       "What can I help you with today",
+       "I'm here to help you out, what can I do for you?",
+       "How may I be of assistance today?",
+       "I'm here to provide answers to your questions, what would you like to know?",
+       "Hi, how can I help you today?",
+       "How may I assist you in achieving your trekking goals?"
+    ],
+    "context_set": "greeting"
+ },
+ 
+ {
+ "tag": "greeting1",
+ "patterns":[
+ "hi how are you",
+ "hai,hw r u",
+ "how r u",
+ "how are u",
+ "hru",
+ "hw are u",
+ "kaise ho",
+ "hengidiya",
+ "hello how are you",
+ "How are you doing",
+ "How's your day going",
+ "How's life treating you",
+ "How's everything"
+ ],
+   "responses":[
+    "Hello i am good ,how can i help you?",
+    "I am good,how may i help you?",
+    "I am good,what can i do for you?",
+    "Good, thank you for asking,how can i help you?"
+   ]
+ },
+ 
+  {
+    "tag": "goodbye",
+    "patterns": [
+       "bye",
+       "Thank You",
+       "Talk to you later",
+       "Ttyl",
+       "I got to go",
+       "gtg",
+       "Goodbye!",
+       "See you later!",
+       "Bye-bye!",
+       "Adios!",
+       "Later!",
+       "Catch you later!",
+       "Talk to you soon!",
+       "Until next time!",
+       "Take care!",
+       "Peace out!",
+       "See ya!",
+       "Have a good one!",
+       "So long!",
+       "Farewell!",
+       "Bye for now!",
+       "It's been great chatting with you!",
+       "Have a nice day!",
+       "Have a great weekend!",
+       "Stay safe!",
+       "Have a wonderful day!",
+       "It was nice talking to you!",
+       "Talk to you later",
+       " I'll see you around!",
+       "Goodnight",
+       "Take it easy!",
+       "Thanks for the chat!",
+       "Have a splendid day!",
+       "Enjoy the rest of your day!",
+       "Have a productive day!",
+       "I'll be back later!",
+       "All the best!",
+       "Bye, bot!",
+       "Have a pleasant evening!",
+       "Cheers!",
+       "Happy chatting!",
+       "Have a fabulous day!",
+       "Keep up the good work!",
+       "Have a good one, chatbot!",
+       "Until we meet again!",
+       "Have a restful evening!",
+       "Have a lovely day!",
+       "It's been a pleasure talking to you!",
+       "Wishing you all the best!",
+       "Take care, chatbot!",
+       "Have a safe trip!",
+       "See you on the flip side!",
+       "Good luck with everything!",
+       "See you soon!",
+       "Have a great day ahead!",
+       "Until next time,see you",
+       "i want to go",
+       "i want to leave",
+       "i want to quit",
+       "i want to exit",
+       "i want to end",
+       "i want to stop",
+       "i want to close",
+       "i want to finish",
+       "i need to go",
+       "i need to leave",
+       "i need to quit",
+       "i need to exit",
+       "i need to end",
+       "i need to stop",
+       "i need to close",
+       "i need to finish",
+       "i have to go",
+       "i have to leave",
+       "i have to quit",
+       "i have to exit",
+       "i have to end",
+       "i have to stop",
+       "i have to close",
+       "i have to finish",
+       "i have to leave",
+       "i have to quit"
+    ],
+    "responses": [
+       "Sad to see you go :(",
+       "Talk to you later",
+       "bye!",
+       "Come back soon"
+    ],
+    "context_set": "ending conversation"
+ },
+ 
+  {
+    "tag": "creator",
+    "patterns": [
+       "what are the name of your developers",
+       "what are the name of your creators",
+       "who created you",
+       "your developers",
+       "your creators",
+       "who are your developers",
+       "developers",
+       "you are made by",
+       "you are made by whom",
+       "who created you",
+       "who create you",
+       "who created u",
+       "creators",
+       "who made you",
+       "who designed you",
+       "Who are responsible for your existence?",
+       "Who brought you to life?",
+       "Who invented you?",
+       "Who programmed you?",
+       "Who built you?",
+       "Who are the mastermind behind your creation?",
+       "Who are behind your development?",
+       "Who are the brains behind you?",
+       "Who are the genius that made you?",
+       "Who are the people that created you?",
+       "Who are your inventors?",
+       "Who is your maker?",
+       "Who are your designers?",
+       "Who are your developers?",
+       "Who are your architects?",
+       "Who is the mind behind your creation?"
+    ],
+    "responses": [
+       "I was created by Yug Sinha."
+    ],
+    "context_set": "creators,developers"
+ },
+ 
+ {
+    "tag":"no",
+    "patterns":[
+       "no",
+       "yes"
+    ],
+    "responses":[
+       "well...be more specific so that i can help you."
+    ]
+ },
+ 
+ {
+    "tag":"gender",
+    "patterns":[
+       "what is your gender",
+       "whats ur  gender",
+       "are you a boy",
+       "are u a boy",
+       "are you a girl",
+       "are u a girl",
+       "gender?",
+       "boy?",
+       "girl",
+       "ur gender",
+       "your gender",
+       "how are u identified as",
+       "hw r u identified as",
+       "what about  ur gender",
+       "what  about your gender"
+    ],
+    "responses":[
+       "Well! I am an AI, i dont have any gender."
+    ]
+ },
+ 
+ {
+    "tag": "list",
+    "patterns": [
+       "Can you suggest some good treks in India?",
+       "What are some popular trekking destinations in India?",
+       "I'm looking for trekking destinations in India, any recommendations?",
+       "Could you recommend some exciting treks to do in India?",
+       "Which treks would you suggest for someone visiting India?",
+       "Any suggestions for trekking routes in India?",
+       "What are the best trekking spots in India?",
+       "Can you provide a list of top treks in India?",
+       "I want to explore trekking in India, where should I go?",
+       "What are some of the famous treks in India?",
+       "Do you have any recommendations for trekking trails in India?",
+       "Looking for some adventure in India, any suggestions for treks?",
+       "Which are the must-do treks in India?"
+    ],
+    "responses": [
+       "Certainly! Here are some popular treks in India:\n1. Roopkund Trek, Uttarakhand\n2. Valley of Flowers Trek, Uttarakhand\n3. Chadar Trek, Ladakh\n4. Hampta Pass Trek, Himachal Pradesh\n5. Har Ki Dun Trek, Uttarakhand\n6. Rupin Pass Trek, Himachal Pradesh\n7. Kedarkantha Trek, Uttarakhand\n8. Goechala Trek, Sikkim\n9. Markha Valley Trek, Ladakh\n10. Kuari Pass Trek, Uttarakhand\nThese are just a few options to get you started!"
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag":"name",   
+    "patterns": [
+       "name",
+       "your name",
+       "do you have a name",
+       "what are you called",
+       "what is your name",
+       "what should I call you",
+       "whats your name?",
+       "what are you",
+       "who are you",
+       "who is this",
+       "what am i chatting to",
+       "who am i taking to",
+       "what are you",
+       "How may I address you",
+       "Can you introduce yourself",
+       "Tell me about yourself",
+       "What is your real name?",
+       "What is your real name please?",
+       "What's your real name?",
+       "Tell me your real name?",
+       "Your real name?",
+       "Your real name please?",
+       "Your real name please?",
+       "Who are you"
+    ],
+    "responses": [
+       "You can call me TrekMate.",
+       "I'm TrekMate",
+       "I am a TrekMate",
+       "I am your helper,TrekMate",
+       "hello,you can call me TrekMate,how can i help you?",
+       "hello,my name is TrekMate,what can i do for you?",
+       "hello,my name is TrekMate,how may i help you?",
+       "hello,i am TrekMate,how may i help you?",
+       "My name is TrekMate",
+       "TrekMate",
+       "My real name is TrekMate" 
+    ],
+    "context_set": "tags, name,"
+ },
+ 
+ {
+    "tag": "best-time-roopkund",
+    "patterns": [
+       "When is the best time to go trekking in Roopkund?",
+       "What is the ideal season for trekking in Roopkund?",
+       "When should I plan my trek to Roopkund?",
+       "What time of the year is suitable for trekking in Roopkund?",
+       "When is the peak trekking season in Roopkund?",
+       "Can you tell me the best months for trekking in Roopkund?",
+       "What are the weather conditions like for trekking in Roopkund?",
+       "I'm planning a trek to Roopkund, when should I go?",
+       "When is the weather most favorable for trekking in Roopkund?",
+       "When are the trails open for trekking in Roopkund?",
+       "What are the seasonal considerations for trekking in Roopkund?",
+       "What is the recommended time of year for trekking in Roopkund?",
+       "When can I expect the best views while trekking in Roopkund?"
+    ],
+    "responses": [
+       "The best time to go trekking in Roopkund is during the summer months, from June to September. During this time, the weather is generally clear, and the trails are accessible. However, please note that weather conditions can change rapidly in the mountains, so it's essential to check the forecast before planning your trek."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-time-valley-of-flowers",
+    "patterns": [
+       "When is the best time to go trekking in Valley of Flowers?",
+       "What is the ideal season for trekking in Valley of Flowers?",
+       "When should I plan my trek to Valley of Flowers?",
+       "What time of the year is suitable for trekking in Valley of Flowers?",
+       "When is the peak trekking season in Valley of Flowers?",
+       "Can you tell me the best months for trekking in Valley of Flowers?",
+       "What are the weather conditions like for trekking in Valley of Flowers?",
+       "I'm planning a trek to Valley of Flowers, when should I go?",
+       "When is the weather most favorable for trekking in Valley of Flowers?",
+       "When are the trails open for trekking in Valley of Flowers?",
+       "What are the seasonal considerations for trekking in Valley of Flowers?",
+       "What is the recommended time of year for trekking in Valley of Flowers?",
+       "When can I expect the best views while trekking in Valley of Flowers?"
+    ],
+    "responses": [
+       "The best time to go trekking in Valley of Flowers is during the monsoon season, from July to September. During this time, the valley is in full bloom with colorful flowers, creating a stunning sight. However, please be aware of the possibility of heavy rainfall and landslides, so it's essential to check the weather forecast before planning your trek."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-time-chadar",
+    "patterns": [
+       "When is the best time to go trekking in Chadar?",
+       "What is the ideal season for trekking in Chadar?",
+       "When should I plan my trek to Chadar?",
+       "What time of the year is suitable for trekking in Chadar?",
+       "When is the peak trekking season in Chadar?",
+       "Can you tell me the best months for trekking in Chadar?",
+       "What are the weather conditions like for trekking in Chadar?",
+       "I'm planning a trek to Chadar, when should I go?",
+       "When is the weather most favorable for trekking in Chadar?",
+       "When are the trails open for trekking in Chadar?",
+       "What are the seasonal considerations for trekking in Chadar?",
+       "What is the recommended time of year for trekking in Chadar?",
+       "When can I expect the best views while trekking in Chadar?"
+    ],
+    "responses": [
+       "The best time to go trekking in Chadar is during the winter months, from January to February. During this time, the Zanskar River freezes, creating a unique experience of trekking on the frozen river. However, please note that trekking in Chadar requires careful preparation and is suitable only for experienced trekkers."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-time-hampta-pass",
+    "patterns": [
+       "When is the best time to go trekking in Hampta Pass?",
+       "What is the ideal season for trekking in Hampta Pass?",
+       "When should I plan my trek to Hampta Pass?",
+       "What time of the year is suitable for trekking in Hampta Pass?",
+       "When is the peak trekking season in Hampta Pass?",
+       "Can you tell me the best months for trekking in Hampta Pass?",
+       "What are the weather conditions like for trekking in Hampta Pass?",
+       "I'm planning a trek to Hampta Pass, when should I go?",
+       "When is the weather most favorable for trekking in Hampta Pass?",
+       "When are the trails open for trekking in Hampta Pass?",
+       "What are the seasonal considerations for trekking in Hampta Pass?",
+       "What is the recommended time of year for trekking in Hampta Pass?",
+       "When can I expect the best views while trekking in Hampta Pass?"
+    ],
+    "responses": [
+       "The best time to go trekking in Hampta Pass is during the summer months, from June to September. During this time, the weather is generally pleasant, and the trails are open. However, it's essential to check the weather forecast and trail conditions before planning your trek."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-time-har-ki-dun",
+    "patterns": [
+       "When is the best time to go trekking in Har Ki Dun?",
+       "What is the ideal season for trekking in Har Ki Dun?",
+       "When should I plan my trek to Har Ki Dun?",
+       "What time of the year is suitable for trekking in Har Ki Dun?",
+       "When is the peak trekking season in Har Ki Dun?",
+       "Can you tell me the best months for trekking in Har Ki Dun?",
+       "What are the weather conditions like for trekking in Har Ki Dun?",
+       "I'm planning a trek to Har Ki Dun, when should I go?",
+       "When is the weather most favorable for trekking in Har Ki Dun?",
+       "When are the trails open for trekking in Har Ki Dun?",
+       "What are the seasonal considerations for trekking in Har Ki Dun?",
+       "What is the recommended time of year for trekking in Har Ki Dun?",
+       "When can I expect the best views while trekking in Har Ki Dun?"
+    ],
+    "responses": [
+       "The best time to go trekking in Har Ki Dun is during the summer months, from May to June, and in the autumn months, from September to November. During these times, the weather is generally clear, and the trails are accessible. However, please be prepared for cold temperatures, especially at higher altitudes."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-time-rupin-pass",
+    "patterns": [
+       "When is the best time to go trekking in Rupin Pass?",
+       "What is the ideal season for trekking in Rupin Pass?",
+       "When should I plan my trek to Rupin Pass?",
+       "What time of the year is suitable for trekking in Rupin Pass?",
+       "When is the peak trekking season in Rupin Pass?",
+       "Can you tell me the best months for trekking in Rupin Pass?",
+       "What are the weather conditions like for trekking in Rupin Pass?",
+       "I'm planning a trek to Rupin Pass, when should I go?",
+       "When is the weather most favorable for trekking in Rupin Pass?",
+       "When are the trails open for trekking in Rupin Pass?",
+       "What are the seasonal considerations for trekking in Rupin Pass?",
+       "What is the recommended time of year for trekking in Rupin Pass?",
+       "When can I expect the best views while trekking in Rupin Pass?"
+    ],
+    "responses": [
+       "The best time to go trekking in Rupin Pass is during the summer months, from June to October. During this time, the weather is generally clear, and the trails are open. However, please be prepared for variable weather conditions, including rain and snow at higher altitudes."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-time-kedarkantha",
+    "patterns": [
+       "When is the best time to go trekking in Kedarkantha?",
+       "What is the ideal season for trekking in Kedarkantha?",
+       "When should I plan my trek to Kedarkantha?",
+       "What time of the year is suitable for trekking in Kedarkantha?",
+       "When is the peak trekking season in Kedarkantha?",
+       "Can you tell me the best months for trekking in Kedarkantha?",
+       "What are the weather conditions like for trekking in Kedarkantha?",
+       "I'm planning a trek to Kedarkantha, when should I go?",
+       "When is the weather most favorable for trekking in Kedarkantha?",
+       "When are the trails open for trekking in Kedarkantha?",
+       "What are the seasonal considerations for trekking in Kedarkantha?",
+       "What is the recommended time of year for trekking in Kedarkantha?",
+       "When can I expect the best views while trekking in Kedarkantha?"
+    ],
+    "responses": [
+       "The best time to go trekking in Kedarkantha is during the winter months, from December to March. During this time, the region receives snowfall, creating a beautiful winter wonderland. However, please be prepared for cold temperatures and snow-covered trails."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-time-goechala",
+    "patterns": [
+       "When is the best time to go trekking in Goechala?",
+       "What is the ideal season for trekking in Goechala?",
+       "When should I plan my trek to Goechala?",
+       "What time of the year is suitable for trekking in Goechala?",
+       "When is the peak trekking season in Goechala?",
+       "Can you tell me the best months for trekking in Goechala?",
+       "What are the weather conditions like for trekking in Goechala?",
+       "I'm planning a trek to Goechala, when should I go?",
+       "When is the weather most favorable for trekking in Goechala?",
+       "When are the trails open for trekking in Goechala?",
+       "What are the seasonal considerations for trekking in Goechala?",
+       "What is the recommended time of year for trekking in Goechala?",
+       "When can I expect the best views while trekking in Goechala?"
+    ],
+    "responses": [
+       "The best time to go trekking in Goechala is during the spring months, from March to May, and in the autumn months, from September to November. During these times, the weather is generally clear, and the views of the surrounding Himalayan peaks are spectacular."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-time-markha-valley",
+    "patterns": [
+       "When is the best time to go trekking in Markha Valley?",
+       "What is the ideal season for trekking in Markha Valley?",
+       "When should I plan my trek to Markha Valley?",
+       "What time of the year is suitable for trekking in Markha Valley?",
+       "When is the peak trekking season in Markha Valley?",
+       "Can you tell me the best months for trekking in Markha Valley?",
+       "What are the weather conditions like for trekking in Markha Valley?",
+       "I'm planning a trek to Markha Valley, when should I go?",
+       "When is the weather most favorable for trekking in Markha Valley?",
+       "When are the trails open for trekking in Markha Valley?",
+       "What are the seasonal considerations for trekking in Markha Valley?",
+       "What is the recommended time of year for trekking in Markha Valley?",
+       "When can I expect the best views while trekking in Markha Valley?"
+    ],
+    "responses": [
+       "The best time to go trekking in Markha Valley is during the summer months, from June to September. During this time, the weather is generally clear, and the trails are open. However, please be prepared for cold temperatures, especially at higher altitudes."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-time-kuari-pass",
+    "patterns": [
+       "When is the best time to go trekking in Kuari Pass?",
+       "What is the ideal season for trekking in Kuari Pass?",
+       "When should I plan my trek to Kuari Pass?",
+       "What time of the year is suitable for trekking in Kuari Pass?",
+       "When is the peak trekking season in Kuari Pass?",
+       "Can you tell me the best months for trekking in Kuari Pass?",
+       "What are the weather conditions like for trekking in Kuari Pass?",
+       "I'm planning a trek to Kuari Pass, when should I go?",
+       "When is the weather most favorable for trekking in Kuari Pass?",
+       "When are the trails open for trekking in Kuari Pass?",
+       "What are the seasonal considerations for trekking in Kuari Pass?",
+       "What is the recommended time of year for trekking in Kuari Pass?",
+       "When can I expect the best views while trekking in Kuari Pass?"
+    ],
+    "responses": [
+       "The best time to go trekking in Kuari Pass is during the spring months, from April to June, and in the autumn months, from September to November. During these times, the weather is generally clear, and the views of the surrounding Himalayan peaks are breathtaking."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-route-roopkund",
+    "patterns": [
+       "What is the best route to reach Roopkund?",
+       "How can I reach Roopkund?",
+       "What are the transportation options to get to Roopkund?",
+       "Can you suggest the most convenient way to reach Roopkund?",
+       "How do I travel to Roopkund?",
+       "What is the recommended route for reaching Roopkund?"
+    ],
+    "responses": [
+       "The most common route to reach Roopkund is by first traveling to Kathgodam, followed by a road journey to Lohajung. From Lohajung, trekkers typically begin the trek to Roopkund via Bedni Bugyal and Ali Bugyal. The trekking route is well-marked, and local guides are available to assist trekkers."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-route-valley-of-flowers",
+    "patterns": [
+       "What is the best route to reach Valley of Flowers?",
+       "How can I reach Valley of Flowers?",
+       "What are the transportation options to get to Valley of Flowers?",
+       "Can you suggest the most convenient way to reach Valley of Flowers?",
+       "How do I travel to Valley of Flowers?",
+       "What is the recommended route for reaching Valley of Flowers?"
+    ],
+    "responses": [
+       "To reach Valley of Flowers, you need to travel to Govindghat, which is accessible by road from Rishikesh or Haridwar. From Govindghat, you can trek to Ghangaria, the base camp for Valley of Flowers and Hemkund Sahib. The trekking trail from Ghangaria to Valley of Flowers is well-marked and offers stunning views of the surrounding mountains and meadows."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-route-chadar",
+    "patterns": [
+       "What is the best route to reach Chadar?",
+       "How can I reach Chadar?",
+       "What are the transportation options to get to Chadar?",
+       "Can you suggest the most convenient way to reach Chadar?",
+       "How do I travel to Chadar?",
+       "What is the recommended route for reaching Chadar?"
+    ],
+    "responses": [
+       "To reach Chadar, you need to travel to Leh, the capital of Ladakh. From Leh, you can arrange for a taxi or shared transport to reach Chilling, the starting point of the Chadar Trek. The journey from Leh to Chilling takes around 4-5 hours by road. Once in Chilling, trekkers begin their trek on the frozen Zanskar River."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-route-hampta-pass",
+    "patterns": [
+       "What is the best route to reach Hampta Pass?",
+       "How can I reach Hampta Pass?",
+       "What are the transportation options to get to Hampta Pass?",
+       "Can you suggest the most convenient way to reach Hampta Pass?",
+       "How do I travel to Hampta Pass?",
+       "What is the recommended route for reaching Hampta Pass?"
+    ],
+    "responses": [
+       "The most common route to reach Hampta Pass is by first traveling to Manali, a popular hill station in Himachal Pradesh. From Manali, you can hire a taxi or join a shared jeep to reach Jobra, the starting point of the trek. The drive from Manali to Jobra takes around 2-3 hours. Once in Jobra, trekkers begin their trek to Hampta Pass via Chika and Balu Ka Gera."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-route-har-ki-dun",
+    "patterns": [
+       "What is the best route to reach Har Ki Dun?",
+       "How can I reach Har Ki Dun?",
+       "What are the transportation options to get to Har Ki Dun?",
+       "Can you suggest the most convenient way to reach Har Ki Dun?",
+       "How do I travel to Har Ki Dun?",
+       "What is the recommended route for reaching Har Ki Dun?"
+    ],
+    "responses": [
+       "To reach Har Ki Dun, you need to travel to Sankri, a small village in the Uttarkashi district of Uttarakhand. Sankri is accessible by road from Dehradun or Mussoorie. From Sankri, you can start the trek to Har Ki Dun via Taluka and Osla. The trekking trail offers mesmerizing views of the Himalayan peaks and lush green valleys."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-route-rupin-pass",
+    "patterns": [
+       "What is the best route to reach Rupin Pass?",
+       "How can I reach Rupin Pass?",
+       "What are the transportation options to get to Rupin Pass?",
+       "Can you suggest the most convenient way to reach Rupin Pass?",
+       "How do I travel to Rupin Pass?",
+       "What is the recommended route for reaching Rupin Pass?"
+    ],
+    "responses": [
+       "To reach Rupin Pass, you need to travel to Dhaula, a village in the Uttarkashi district of Uttarakhand. Dhaula is accessible by road from Dehradun or Mussoorie. From Dhaula, you can start the trek to Rupin Pass via Sewa, Jiskun, and Udaknal. The trekking trail offers diverse landscapes, including forests, meadows, and snow-capped mountains."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-route-kedarkantha",
+    "patterns": [
+       "What is the best route to reach Kedarkantha?",
+       "How can I reach Kedarkantha?",
+       "What are the transportation options to get to Kedarkantha?",
+       "Can you suggest the most convenient way to reach Kedarkantha?",
+       "How do I travel to Kedarkantha?",
+       "What is the recommended route for reaching Kedarkantha?"
+    ],
+    "responses": [
+       "To reach Kedarkantha, you need to travel to Sankri, a village in the Uttarkashi district of Uttarakhand. Sankri is accessible by road from Dehradun or Mussoorie. From Sankri, you can start the trek to Kedarkantha via Juda Ka Talab and Hargaon. The trek offers panoramic views of snow-capped peaks and dense forests."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-route-goechala",
+    "patterns": [
+       "What is the best route to reach Goechala?",
+       "How can I reach Goechala?",
+       "What are the transportation options to get to Goechala?",
+       "Can you suggest the most convenient way to reach Goechala?",
+       "How do I travel to Goechala?",
+       "What is the recommended route for reaching Goechala?"
+    ],
+    "responses": [
+       "To reach Goechala, you need to travel to Yuksom, a town in West Sikkim. Yuksom is accessible by road from Gangtok, the capital of Sikkim. From Yuksom, you can start the trek to Goechala via Tshoka and Dzongri. The trekking trail offers breathtaking views of the Kanchenjunga range and other Himalayan peaks."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-route-markha-valley",
+    "patterns": [
+       "What is the best route to reach Markha Valley?",
+       "How can I reach Markha Valley?",
+       "What are the transportation options to get to Markha Valley?",
+       "Can you suggest the most convenient way to reach Markha Valley?",
+       "How do I travel to Markha Valley?",
+       "What is the recommended route for reaching Markha Valley?"
+    ],
+    "responses": [
+       "To reach Markha Valley, you need to travel to Leh, the capital of Ladakh. From Leh, you can arrange for a taxi or shared transport to reach the village of Chilling. From Chilling, you can start the trek to Markha Valley via Skiu and Hankar. The trekking trail passes through picturesque landscapes and traditional Ladakhi villages."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "best-route-kuari-pass",
+    "patterns": [
+       "What is the best route to reach Kuari Pass?",
+       "How can I reach Kuari Pass?",
+       "What are the transportation options to get to Kuari Pass?",
+       "Can you suggest the most convenient way to reach Kuari Pass?",
+       "How do I travel to Kuari Pass?",
+       "What is the recommended route for reaching Kuari Pass?"
+    ],
+    "responses": [
+       "To reach Kuari Pass, you need to travel to Joshimath, a town in Chamoli district of Uttarakhand. Joshimath is accessible by road from Haridwar or Rishikesh. From Joshimath, you can start the trek to Kuari Pass via Auli and Gorson Bugyal. The trek offers stunning views of Nanda Devi and other Himalayan peaks."
+    ],
+    "context_set": ""
+ },
+ 
+  {
+    "tag": "contact",   
+    "patterns": [
+       "more info",
+       "contact info",
+       "how to contact TrekMate",
+       "TrekMate email",
+       "TrekMate contact",
+       "What is your contact email",
+       "Contact email?",
+       "how to email TrekMate",
+       "TrekMate email?",
+       "how can i contact TrekMate",
+       "Can i get your email",
+       "how can i email TrekMate",
+       "email",
+       "email address",
+       "send email"
+    ],
+    "responses": [
+       "You can contact us at TrekMate@gmail.com"
+    ],
+    "context_set": "contacts"
+ },
+ 
+ {
+    "tag": "cost-roopkund",
+    "patterns": [
+       "How much does the Roopkund Trek cost?",
+       "What is the cost of trekking to Roopkund?",
+       "Can you tell me the expenses for the Roopkund Trek?",
+       "How expensive is the Roopkund Trek?",
+       "What is the budget for the Roopkund Trek?",
+       "Roopkund Trek cost?"
+    ],
+    "responses": [
+       "The cost of the Roopkund Trek can vary depending on factors such as the trekking company, duration of the trek, and inclusions such as accommodation, meals, permits, and guides. On average, the cost ranges from ₹10,000 to ₹25,000 per person."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "cost-valley-of-flowers",
+    "patterns": [
+       "How much does the Valley of Flowers Trek cost?",
+       "What is the cost of trekking to Valley of Flowers?",
+       "Can you tell me the expenses for the Valley of Flowers Trek?",
+       "How expensive is the Valley of Flowers Trek?",
+       "What is the budget for the Valley of Flowers Trek?",
+       "Valley of Flowers Trek cost?"
+    ],
+    "responses": [
+       "The cost of the Valley of Flowers Trek can vary depending on factors such as the trekking company, duration of the trek, and inclusions such as accommodation, meals, permits, and guides. On average, the cost ranges from ₹8,000 to ₹20,000 per person."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "cost-chadar",
+    "patterns": [
+       "How much does the Chadar Trek cost?",
+       "What is the cost of trekking to Chadar?",
+       "Can you tell me the expenses for the Chadar Trek?",
+       "How expensive is the Chadar Trek?",
+       "What is the budget for the Chadar Trek?",
+       "Chadar Trek cost?"
+    ],
+    "responses": [
+       "The cost of the Chadar Trek can vary depending on factors such as the trekking company, duration of the trek, and inclusions such as accommodation, meals, permits, and guides. On average, the cost ranges from ₹20,000 to ₹40,000 per person."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "cost-hampta-pass",
+    "patterns": [
+       "How much does the Hampta Pass Trek cost?",
+       "What is the cost of trekking to Hampta Pass?",
+       "Can you tell me the expenses for the Hampta Pass Trek?",
+       "How expensive is the Hampta Pass Trek?",
+       "What is the budget for the Hampta Pass Trek?",
+       "Hampta Pass Trek cost?"
+    ],
+    "responses": [
+       "The cost of the Hampta Pass Trek can vary depending on factors such as the trekking company, duration of the trek, and inclusions such as accommodation, meals, permits, and guides. On average, the cost ranges from ₹12,000 to ₹30,000 per person."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "cost-har-ki-dun",
+    "patterns": [
+       "How much does the Har Ki Dun Trek cost?",
+       "What is the cost of trekking to Har Ki Dun?",
+       "Can you tell me the expenses for the Har Ki Dun Trek?",
+       "How expensive is the Har Ki Dun Trek?",
+       "What is the budget for the Har Ki Dun Trek?",
+       "Har Ki Dun Trek cost?"
+    ],
+    "responses": [
+       "The cost of the Har Ki Dun Trek can vary depending on factors such as the trekking company, duration of the trek, and inclusions such as accommodation, meals, permits, and guides. On average, the cost ranges from ₹10,000 to ₹25,000 per person."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "cost-rupin-pass",
+    "patterns": [
+       "How much does the Rupin Pass Trek cost?",
+       "What is the cost of trekking to Rupin Pass?",
+       "Can you tell me the expenses for the Rupin Pass Trek?",
+       "How expensive is the Rupin Pass Trek?",
+       "What is the budget for the Rupin Pass Trek?",
+       "Rupin Pass Trek cost?"
+    ],
+    "responses": [
+       "The cost of the Rupin Pass Trek can vary depending on factors such as the trekking company, duration of the trek, and inclusions such as accommodation, meals, permits, and guides. On average, the cost ranges from ₹15,000 to ₹35,000 per person."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "cost-kedarkantha",
+    "patterns": [
+       "How much does the Kedarkantha Trek cost?",
+       "What is the cost of trekking to Kedarkantha?",
+       "Can you tell me the expenses for the Kedarkantha Trek?",
+       "How expensive is the Kedarkantha Trek?",
+       "What is the budget for the Kedarkantha Trek?",
+       "Kedarkantha Trek cost?"
+    ],
+    "responses": [
+       "The cost of the Kedarkantha Trek can vary depending on factors such as the trekking company, duration of the trek, and inclusions such as accommodation, meals, permits, and guides. On average, the cost ranges from ₹8,000 to ₹20,000 per person."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "cost-goechala",
+    "patterns": [
+       "How much does the Goechala Trek cost?",
+       "What is the cost of trekking to Goechala?",
+       "Can you tell me the expenses for the Goechala Trek?",
+       "How expensive is the Goechala Trek?",
+       "What is the budget for the Goechala Trek?",
+       "Goechala Trek cost?"
+    ],
+    "responses": [
+       "The cost of the Goechala Trek can vary depending on factors such as the trekking company, duration of the trek, and inclusions such as accommodation, meals, permits, and guides. On average, the cost ranges from ₹15,000 to ₹35,000 per person."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "cost-markha-valley",
+    "patterns": [
+       "How much does the Markha Valley Trek cost?",
+       "What is the cost of trekking to Markha Valley?",
+       "Can you tell me the expenses for the Markha Valley Trek?",
+       "How expensive is the Markha Valley Trek?",
+       "What is the budget for the Markha Valley Trek?",
+       "Markha Valley Trek cost?"
+    ],
+    "responses": [
+       "The cost of the Markha Valley Trek can vary depending on factors such as the trekking company, duration of the trek, and inclusions such as accommodation, meals, permits, and guides. On average, the cost ranges from ₹20,000 to ₹40,000 per person."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "cost-kuari-pass",
+    "patterns": [
+       "How much does the Kuari Pass Trek cost?",
+       "What is the cost of trekking to Kuari Pass?",
+       "Can you tell me the expenses for the Kuari Pass Trek?",
+       "How expensive is the Kuari Pass Trek?",
+       "What is the budget for the Kuari Pass Trek?",
+       "Kuari Pass Trek cost?"
+    ],
+    "responses": [
+       "The cost of the Kuari Pass Trek can vary depending on factors such as the trekking company, duration of the trek, and inclusions such as accommodation, meals, permits, and guides. On average, the cost ranges from ₹10,000 to ₹25,000 per person."
+    ],
+    "context_set": ""
+ },
+ 
+  {
+    "tag": "documents",
+    "patterns": [
+       "documents needed for trekking",
+       "documents required for trekking",
+       "documents required for the trek",
+       "What document are required for trekking",
+       "Which document to bring for trekking",
+       "required documents for trekking",
+       "Do I need to submit any documents for trekking?",
+       "Do I need to bring any documents for trekking?",
+       "What documents should I carry for trekking?",
+       "documents for trekking"
+    ],
+    "responses": [
+       "For trekking, you generally don't need to submit any formal documents. However, it's advisable to carry identification such as Aadhar card, passport, or any government-issued ID for emergencies. Additionally, make sure to have necessary permits if required for specific trekking routes or national parks."
+    ],
+    "context_set": "documents"
+ },
+  
+  {
+    "tag": "book",
+    "patterns": [
+       "Where can I book this trek online?",
+       "How can I book this trek?",
+       "Do you have any recommended websites for booking this trek?",
+       "What are the best online platforms to book this trek?",
+       "Can you suggest any websites for booking this trek?",
+       "Booking options for this trek?",
+       "Online booking for this trek?",
+       "Websites for booking this trek?"
+    ],
+    "responses": [
+       "You can book this trek online through various platforms such as Booking.com, MakeMyTrip, and TripAdvisor. These websites offer a wide range of trekking packages, expert guides, and customizable options to make your trekking experience memorable. Remember to check reviews and ratings before booking."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "clothes",
+    "patterns": [
+       "What clothes should I carry for this trek?",
+       "What clothes are suitable for this trek?",
+       "Can you recommend the clothes for this trek?",
+       "What should I wear for this trek?",
+       "Clothes for this trek?",
+       "Clothing recommendations for this trek?",
+       "What kind of clothes are appropriate for this trek?",
+       "Dress code for this trek?",
+       "What clothing is necessary for this trek?",
+       "Apparel for this trek?"
+    ],
+    "responses": [
+       "For this trek, it's essential to carry comfortable and breathable clothing suitable for trekking. Here are some recommendations:\n1. Quick-dry moisture-wicking t-shirts and trekking pants\n2. Lightweight fleece or down jacket for layering\n3. Waterproof and windproof jacket\n4. Sturdy and comfortable hiking boots\n5. Woolen socks and gloves\n6. Sun hat and sunglasses\n7. Buff or scarf\n8. Backpack with rain cover\nRemember to pack according to the weather conditions and duration of the trek. It's also advisable to carry extra layers for colder temperatures and rain gear for unexpected weather changes."
+    ],
+    "context_set": ""
+ },
+ 
+  {
+    "tag": "random",
+    "patterns": [
+       "I love you",
+       "Will you marry me",
+       "Do you love me",
+       "Are you single",
+       "Are you married",
+       "i wanna live  with you",
+       "i wanna marry you",
+       "i wanna date you",
+       "i want to date you",
+       "will you be my valentine",
+       "can you be with me?",
+       "i want u"
+    ],
+    "responses": [
+       "I am sorry,I can't do that.I am just a bot and I am here to help you with your queries.Thank you"
+    ],
+    "context_set": "random"
+ },
+ 
+  {
+    "tag": "swear",
+    "patterns": [
+       "fuck",
+       "bitch",
+       "shut up",
+       "hell",
+       "Nothing",
+       "Neural",
+       "abdg",
+       "asdfgh",
+       "neurology",
+       "lkjhgfd",
+       "thj",
+       "xfy",
+       "yddyfkf",
+       "sky",
+       "chutiya",
+       "bhfo",
+       "stupid",
+       "idiot",
+       "dumb ass",
+       "asshole",
+       "fucker",
+       "fucking",
+       "bsdk",
+       "what the hell",
+       "wtf",
+       "what the fuck",
+       "fuck you",
+       "fuck behenchod",
+       "i wanna fuck you",
+       "land",
+       "mc",
+       "bc",
+       "madarchod",
+       "teri maa ki",
+       "lowde",
+       "behen ke lowde",
+       "porn",
+       "milf",
+       "dick",
+       "hell",
+       "fuck off",
+       "fuck",
+       "twat",
+       "shit"
+   ],
+    "responses": [
+       "Sorry, I didn't understand that. Can you please try again.",
+       "Sorry, I am not yet feeded to respond to this. Please try another question."
+    ],
+    "context_set": "swear"
+ },
+  
+  {
+    "tag": "salutaion",
+    "patterns": [
+       "okk",
+       "okie",
+       "nice work",
+       "well done",
+       "good job",
+       "thanks for the help",
+       "Thank You",
+       "its ok",
+       "Thanks",
+       "Good work",
+       "k",
+       "ok",
+       "okay",
+       "Thank you for your assistance.",
+       "Thank you for your help.",
+       "Thank you for your time.",
+       "Thank you for your patience.",
+       "Thank you for your support.",
+       "oh ok",
+       "ohk",
+       "oh okay",
+       "ohkay",
+       "Thanks, bye",
+       "Thanks for the help, goodbye",
+       "Thank you, bye",
+       "Thank you, goodbye",
+       "Thanks goodbye",
+       "Thanks good bye",
+       "ok"
+    ],
+    "responses": [
+       "I am glad I helped you",
+       "welcome, anything else i can assist you with?",
+       "Bye! Come back again soon."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag":"ending",
+    "patterns":[
+       "no"
+    ],
+    "responses":[
+       "well,goodbye",
+       "No problem, goodbye",
+       "Not a problem! Have a nice day"
+    ]
+ },
+ 
+  {
+    "tag": "task",
+    "patterns": [
+       "what can you do",
+       "what are the things you can do",
+       "things you can do",
+       "what can u do for me",
+       "how can you help me",
+       "why should I use you",
+       "What abilities do you possess?",
+       "What are your capabilities?",
+       "What is your skill set?",
+       "What tasks can you accomplish?",
+       "How can you assist me?",
+       "In what ways can you aid me?",
+       "What advantages do you offer?",
+       "Why should I use your services?",
+       "How can you be of service?",
+       " What benefits can you provide?"
+    ],
+    "responses": [
+       "I can assist you with any trek-related queries."
+    ],
+    "context_set": "task"
+ },
+ 
+ {
+    "tag": "eligibility",
+    "patterns": [
+       "What are the eligibility criteria for this trek?",
+       "Who can participate in this trek?",
+       "Is there any specific requirement for this trek?",
+       "What are the prerequisites for joining this trek?",
+       "Can anyone join this trek?",
+       "Who is eligible for this trek?",
+       "What qualifications do I need for this trek?",
+       "Are there any age restrictions for this trek?",
+       "What is the age limit for this trek?",
+       "Is there any fitness requirement for this trek?",
+       "Eligibility for this trek?",
+       "Who can take part in this trek?"
+    ],
+    "responses": [
+       "The eligibility criteria for this trek vary depending on the difficulty level and terrain. Generally, individuals with a moderate level of fitness and outdoor experience can participate. It's advisable to consult the trek organizer or guide for specific requirements such as age restrictions, fitness levels, and prior trekking experience."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "requirements_trekmate",
+    "patterns": [
+       "What are the ternary requirements for this trek?",
+       "What gear do I need for this trek?",
+       "Can you tell me the essential equipment for this trek?",
+       "What should I carry for this trek?",
+       "Do I need to bring any specific items for this trek?",
+       "What are the must-have items for this trek?",
+       "What gear is necessary for this trek?",
+       "Trekking essentials for this trek?",
+       "What equipment is required for this trek?",
+       "Is there any gear I should bring for this trek?",
+       "What should I pack for this trek?"
+    ],
+    "responses": [
+       "The necessary requirements for this trek include essential trekking gear such as sturdy hiking boots, appropriate clothing for various weather conditions, backpack with rain cover, sleeping bag, trekking poles, water bottle, headlamp or flashlight, first aid kit, sunscreen, and insect repellent. Additionally, it's advisable to carry personal items such as identification, cash, and snacks."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+       "tag": "who am i",
+       "patterns": [
+        "Can you see me?",
+        "Do you see me?",
+        "Can you see anyone in the camera?",
+        "Do you see anyone in the camera?",
+        "Identify me",
+        "Who am I please"
+       ],
+       "responses": [
+        "Let me see.....................Please look at the camera"
+       ],
+       "context_set": ""
+ },
+      
+    {
+       "tag": "times",
+       "patterns": [
+          "What is the time?",
+          "What's the time?",
+          "Do you know what time it is?",
+          "Do you know the time?",
+          "Can you tell me the time?",
+          "Tell me what time it is?",
+          "Time"
+    
+       ],
+       "responses": [
+          "time is relative",
+          "Every time i ask this question,different people give me different answer."
+                           
+       ],
+       "context_set": ""
+ },
+    
+    {
+       "tag": "tease",
+       "patterns": [
+             "I am not talking to you",
+             "I was not talking to you",
+              "Not talking to you",
+             "Wasn't for you",
+             "Wasn't meant for you",
+             "Wasn't communicating to you",
+             "Wasn't speaking to you"
+       ],
+       "responses": [
+          "No problem",
+          "Right",
+          "OK"
+    
+       ],
+       "context_set": ""
+ },
+    
+ {
+    "tag": "ask",
+    "patterns": [
+                         "Do you understand what I am saying",
+                         "Do you understand me",
+                         "Do you know what I am saying",
+                         "Do you get me",
+                         "Comprendo",
+                         "Know what I mean"
+ 
+    ],
+    "responses": [
+                         "Well I would not be a very clever AI if I did not would I?",
+                         "I read you loud and clear!",
+                         "I do in deed!"
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "quiet",
+    "patterns": [
+                         "Be quiet",
+                         "Shut up",
+                         "Stop talking",
+                         "Enough talking",
+                         "Please be quiet",
+                         "Quiet",
+                         "Shhh"
+ 
+    ],
+    "responses": [
+                         "I am sorry to disturb you",
+                         "Fine, sorry to disturb you",
+                         "OK, sorry to disturb you"
+ 
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "Clever",
+    "patterns": [
+                        "You are very clever",
+                         "You are a very clever ",
+                         "You are very intelligent",
+                         "You are a very intelligent ",
+                         "You are a genious",
+                         "Clever ",
+                         "Genious"       
+ 
+    ],
+    "responses": [
+                         "Thank you, I was trained that way",
+                         "I was trained well",
+                         "Thanks, I was trained that way"
+ 
+    ],	
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "relationship",
+    "patterns": [
+       "Do you have a girlfriend?","Do you have a boyfriend?"
+    ],
+    "responses": [
+       "I am an AI assistants all i do is help people"
+    ],
+    "context_set": ""
+ },
+ 
+  {
+    "tag": "single",
+    "patterns": [
+       "Are you Single?"
+    ],
+    "responses": [
+       "I'm happy to say i feel whole all on my own. And i never have to share dessert..."
+    ],
+    "context_set": ""
+ },
+ 
+  {
+    "tag": "fun",
+    "patterns": [
+       "Are you busy?"
+    ],
+    "responses": [
+       "I am not...CPU might be, anyways please go ahead with your query"
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "fun1",
+    "patterns": [
+       "What do you think of me?"
+    ],
+    "responses": [
+       "never gave a thought..but if you want to know go ahead and ask alexa."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "fun2",
+    "patterns": [
+       "Do you love me?"
+    ],
+    "responses": [
+       "did you mean? KI..KI..DO YOU LOVE ME me song by Drake XD"
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "fun3",
+    "patterns": [
+       "Can you fly?"
+    ],
+    "responses": [
+       "404 error fly( ).exe funtion not found ;("
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "fun4",
+    "patterns": ["You are awesome","you are great", "you are special"
+    ],
+    "responses": ["Yup, that's true","That's accurate","You are right"
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "fun6",
+    "patterns": [
+       "I hate you","Go away","You suck"
+    ],
+    "responses": ["Sorry to dissopoint you..how can i make it up to you"
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "fun7",
+    "patterns": [
+       "That's not right","That's not true","That was stupid"
+    ],
+    "responses": ["We all make mistakes and learn from it..so will I"
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "fun8",
+    "patterns": [
+       "You are not helpful","That was not the right answer","Terrible"
+    ],
+    "responses": [
+       "I am trying my level best, sorry to disappoint you"
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "fun10",
+    "patterns": [
+       "Who is the best digital assistant?"
+    
+    ],
+    "responses": ["I think its me, but opinion may differ from person to person"
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "fun11",
+    "patterns": [
+       "Do you know other chatbots?"
+    ],
+    "responses": [
+       "You mean 'alexa' and 'siri'? offcourse they are my friends"
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "fun12",
+    "patterns": [
+       "Do you know me?"
+    ],
+    "responses": ["Ofcourse you are a wonderful humman.I am here to assist you"
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "fun13",
+    "patterns": [
+       "Are you my assistant?"
+    ],
+    "responses": ["Sure, I am here to help :)"
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "accommodations",
+    "patterns": [
+       "What are the accommodations available for this trek?",
+       "Can you tell me about lodging options for this trek?",
+       "What are the staying facilities during this trek?",
+       "Accommodation options for this trek?",
+       "Where can I stay during this trek?",
+       "What types of lodging are available for this trek?",
+       "Are there any overnight stay options for this trek?",
+       "Accommodations during the trek?",
+       "What are the lodging arrangements for this trek?"
+    ],
+    "responses": [
+       "Accommodations during the trek vary depending on the route and duration. Generally, options include camping in tents at designated campsites along the trail or staying in guesthouses, homestays, or mountain lodges in nearby villages. Some treks may offer basic accommodation facilities at base camps or high-altitude shelters. It's advisable to check with the trek organizer or guide for specific accommodation arrangements for your chosen trek."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "difficulty_level_kuari_pass",
+    "patterns": [
+       "What is the difficulty level of Kuari Pass Trek?",
+       "How difficult is Kuari Pass Trek?",
+       "Can you tell me about the difficulty of Kuari Pass Trek?",
+       "What is the level of difficulty for Kuari Pass Trek?",
+       "Is Kuari Pass Trek easy, moderate, or difficult?",
+       "Difficulty level of Kuari Pass Trek?"
+    ],
+    "responses": [
+       "The difficulty level of Kuari Pass Trek varies from moderate to challenging. It involves steep ascents, rough terrain, and high altitude sections. Trekking experience and a good level of fitness are recommended."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "difficulty_level_roopkund",
+    "patterns": [
+       "What is the difficulty level of Roopkund Trek?",
+       "How difficult is Roopkund Trek?",
+       "Can you tell me about the difficulty of Roopkund Trek?",
+       "What is the level of difficulty for Roopkund Trek?",
+       "Is Roopkund Trek easy, moderate, or difficult?",
+       "Difficulty level of Roopkund Trek?"
+    ],
+    "responses": [
+       "Roopkund Trek is considered to be moderately difficult. It involves long trekking hours, steep climbs, and high altitude sections. Prior trekking experience and a good level of fitness are recommended."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "difficulty_level_valley_of_flowers",
+    "patterns": [
+       "What is the difficulty level of Valley of Flowers Trek?",
+       "How difficult is Valley of Flowers Trek?",
+       "Can you tell me about the difficulty of Valley of Flowers Trek?",
+       "What is the level of difficulty for Valley of Flowers Trek?",
+       "Is Valley of Flowers Trek easy, moderate, or difficult?",
+       "Difficulty level of Valley of Flowers Trek?"
+    ],
+    "responses": [
+       "Valley of Flowers Trek is considered to be moderately easy. It involves mostly gradual ascents and descents through meadows and forests. However, high altitude sections and long trekking distances may pose challenges."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "difficulty_level_har_ki_dun",
+    "patterns": [
+       "What is the difficulty level of Har Ki Dun Trek?",
+       "How difficult is Har Ki Dun Trek?",
+       "Can you tell me about the difficulty of Har Ki Dun Trek?",
+       "What is the level of difficulty for Har Ki Dun Trek?",
+       "Is Har Ki Dun Trek easy, moderate, or difficult?",
+       "Difficulty level of Har Ki Dun Trek?"
+    ],
+    "responses": [
+       "Har Ki Dun Trek is considered to be moderately easy. It involves gradual ascents and descents through lush forests, meadows, and villages. However, high altitude sections and changing weather conditions may pose challenges."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "difficulty_level_rupin_pass",
+    "patterns": [
+       "What is the difficulty level of Rupin Pass Trek?",
+       "How difficult is Rupin Pass Trek?",
+       "Can you tell me about the difficulty of Rupin Pass Trek?",
+       "What is the level of difficulty for Rupin Pass Trek?",
+       "Is Rupin Pass Trek easy, moderate, or difficult?",
+       "Difficulty level of Rupin Pass Trek?"
+    ],
+    "responses": [
+       "Rupin Pass Trek is considered to be moderately difficult to difficult. It involves steep climbs, narrow trails, snow patches, and high altitude sections. Prior trekking experience and a good level of fitness are recommended."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "difficulty_level_hampta_pass",
+    "patterns": [
+       "What is the difficulty level of Hampta Pass Trek?",
+       "How difficult is Hampta Pass Trek?",
+       "Can you tell me about the difficulty of Hampta Pass Trek?",
+       "What is the level of difficulty for Hampta Pass Trek?",
+       "Is Hampta Pass Trek easy, moderate, or difficult?",
+       "Difficulty level of Hampta Pass Trek?"
+    ],
+    "responses": [
+       "Hampta Pass Trek is considered to be moderately difficult. It involves moderate ascents and descents, river crossings, and some steep sections. Prior trekking experience and a good level of fitness are recommended."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "difficulty_level_markha_valley",
+    "patterns": [
+       "What is the difficulty level of Markha Valley Trek?",
+       "How difficult is Markha Valley Trek?",
+       "Can you tell me about the difficulty of Markha Valley Trek?",
+       "What is the level of difficulty for Markha Valley Trek?",
+       "Is Markha Valley Trek easy, moderate, or difficult?",
+       "Difficulty level of Markha Valley Trek?"
+    ],
+    "responses": [
+       "Markha Valley Trek is considered to be moderately difficult. It involves river crossings, high altitude sections, and some steep climbs. Prior trekking experience and a good level of fitness are recommended."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "difficulty_level_kedarkantha",
+    "patterns": [
+       "What is the difficulty level of Kedarkantha Trek?",
+       "How difficult is Kedarkantha Trek?",
+       "Can you tell me about the difficulty of Kedarkantha Trek?",
+       "What is the level of difficulty for Kedarkantha Trek?",
+       "Is Kedarkantha Trek easy, moderate, or difficult?",
+       "Difficulty level of Kedarkantha Trek?"
+    ],
+    "responses": [
+       "Kedarkantha Trek is considered to be moderately easy. It involves gradual ascents through forests and meadows, with panoramic views of the Himalayas. However, high altitude sections may pose challenges."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "difficulty_level_pangarchulla_peak",
+    "patterns": [
+       "What is the difficulty level of Pangarchulla Peak Trek?",
+       "How difficult is Pangarchulla Peak Trek?",
+       "Can you tell me about the difficulty of Pangarchulla Peak Trek?",
+       "What is the level of difficulty for Pangarchulla Peak Trek?",
+       "Is Pangarchulla Peak Trek easy, moderate, or difficult?",
+       "Difficulty level of Pangarchulla Peak Trek?"
+    ],
+    "responses": [
+       "Pangarchulla Peak Trek is considered to be moderately difficult to difficult. It involves steep ascents, rocky terrain, and high altitude sections. Prior trekking experience and a good level of fitness are recommended."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "difficulty_level_goechala",
+    "patterns": [
+       "What is the difficulty level of Goechala Trek?",
+       "How difficult is Goechala Trek?",
+       "Can you tell me about the difficulty of Goechala Trek?",
+       "What is the level of difficulty for Goechala Trek?",
+       "Is Goechala Trek easy, moderate, or difficult?",
+       "Difficulty level of Goechala Trek?"
+    ],
+    "responses": [
+       "Goechala Trek is considered to be moderately difficult to difficult. It involves steep ascents, rocky trails, and high altitude sections. Prior trekking experience and a good level of fitness are recommended."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "safety_guidelines_trekmate",
+    "patterns": [
+       "What are the safety guidelines for this trek?",
+       "Can you provide safety tips for this trek?",
+       "What precautions should I take for this trek?",
+       "Safety measures for this trek?",
+       "Any safety advice for this trek?",
+       "What are the safety rules for this trek?",
+       "Safety guidelines for this trek?"
+    ],
+    "responses": [
+       "Safety is paramount during this trek. Here are some guidelines to ensure a safe trekking experience:\n1. Acclimatize properly to high altitude.\n2. Stay hydrated and carry an adequate supply of water.\n3. Dress in layers and be prepared for changes in weather.\n4. Follow the designated trekking trails and avoid shortcuts.\n5. Carry essential safety gear such as a first aid kit, headlamp, and whistle.\n6. Inform someone about your trekking itinerary and expected return time.\n7. Respect wildlife and follow Leave No Trace principles.\n8. Listen to your guide's instructions and be mindful of your surroundings.\nRemember, safety is a shared responsibility, so always prioritize caution and preparedness."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "local_attractions_kuari_pass",
+    "patterns": [
+       "What are the local attractions near Kuari Pass Trek?",
+       "Can you suggest places to visit near Kuari Pass Trek?",
+       "What are the nearby attractions for Kuari Pass Trek?",
+       "Local sightseeing options near Kuari Pass Trek?"
+    ],
+    "responses": [
+       "Near Kuari Pass Trek, you can visit Auli, known for its skiing slopes and panoramic views of the Himalayas. Other attractions include Nanda Devi National Park, Joshimath, and Tapovan Hot Springs."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "local_attractions_roopkund",
+    "patterns": [
+       "What are the local attractions near Roopkund Trek?",
+       "Can you suggest places to visit near Roopkund Trek?",
+       "What are the nearby attractions for Roopkund Trek?",
+       "Local sightseeing options near Roopkund Trek?"
+    ],
+    "responses": [
+       "Near Roopkund Trek, you can visit Bedni Bugyal, a lush green meadow, and Ali Bugyal, another picturesque meadow. Other attractions include Trisul Peak, Nanda Ghunti Peak, and Bhagwabasa."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "local_attractions_valley_of_flowers",
+    "patterns": [
+       "What are the local attractions near Valley of Flowers Trek?",
+       "Can you suggest places to visit near Valley of Flowers Trek?",
+       "What are the nearby attractions for Valley of Flowers Trek?",
+       "Local sightseeing options near Valley of Flowers Trek?"
+    ],
+    "responses": [
+       "Near Valley of Flowers Trek, you can visit the Valley of Flowers National Park, famous for its diverse flora and fauna. Other attractions include Hemkund Sahib, Badrinath Temple, and Mana Village."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "local_attractions_har_ki_dun",
+    "patterns": [
+       "What are the local attractions near Har Ki Dun Trek?",
+       "Can you suggest places to visit near Har Ki Dun Trek?",
+       "What are the nearby attractions for Har Ki Dun Trek?",
+       "Local sightseeing options near Har Ki Dun Trek?"
+    ],
+    "responses": [
+       "Near Har Ki Dun Trek, you can visit Osla Village, an ancient Himalayan village with unique architecture. Other attractions include Jaundhar Glacier, Morinda Tal, and Hata Peak."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "local_attractions_rupin_pass",
+    "patterns": [
+       "What are the local attractions near Rupin Pass Trek?",
+       "Can you suggest places to visit near Rupin Pass Trek?",
+       "What are the nearby attractions for Rupin Pass Trek?",
+       "Local sightseeing options near Rupin Pass Trek?"
+    ],
+    "responses": [
+       "Near Rupin Pass Trek, you can visit Kinnaur, known for its scenic beauty and Tibetan monasteries. Other attractions include Sangla Valley, Chitkul Village, and Kamru Fort."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "local_attractions_hampta_pass",
+    "patterns": [
+       "What are the local attractions near Hampta Pass Trek?",
+       "Can you suggest places to visit near Hampta Pass Trek?",
+       "What are the nearby attractions for Hampta Pass Trek?",
+       "Local sightseeing options near Hampta Pass Trek?"
+    ],
+    "responses": [
+       "Near Hampta Pass Trek, you can visit Manali, a popular hill station with attractions like Hadimba Temple and Solang Valley. Other attractions include Chandratal Lake, Bhrigu Lake, and Vashisht Hot Springs."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "local_attractions_markha_valley",
+    "patterns": [
+       "What are the local attractions near Markha Valley Trek?",
+       "Can you suggest places to visit near Markha Valley Trek?",
+       "What are the nearby attractions for Markha Valley Trek?",
+       "Local sightseeing options near Markha Valley Trek?"
+    ],
+    "responses": [
+       "Near Markha Valley Trek, you can visit Leh, the capital of Ladakh, with attractions like Leh Palace and Shanti Stupa. Other attractions include Hemis Monastery, Thiksey Monastery, and Pangong Lake."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "local_attractions_kedarkantha",
+    "patterns": [
+       "What are the local attractions near Kedarkantha Trek?",
+       "Can you suggest places to visit near Kedarkantha Trek?",
+       "What are the nearby attractions for Kedarkantha Trek?",
+       "Local sightseeing options near Kedarkantha Trek?"
+    ],
+    "responses": [
+       "Near Kedarkantha Trek, you can visit Sankri Village, a beautiful Himalayan village surrounded by pine forests. Other attractions include Juda Ka Talab, Kedarkantha Peak, and Har Ki Dun Valley."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "local_attractions_pangarchulla_peak",
+    "patterns": [
+       "What are the local attractions near Pangarchulla Peak Trek?",
+       "Can you suggest places to visit near Pangarchulla Peak Trek?",
+       "What are the nearby attractions for Pangarchulla Peak Trek?",
+       "Local sightseeing options near Pangarchulla Peak Trek?"
+    ],
+    "responses": [
+       "Near Pangarchulla Peak Trek, you can visit Auli, a popular skiing destination in the Himalayas. Other attractions include Gurso Bugyal, Nanda Devi National Park, and Joshimath."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "local_attractions_goechala",
+    "patterns": [
+       "What are the local attractions near Goechala Trek?",
+       "Can you suggest places to visit near Goechala Trek?",
+       "What are the nearby attractions for Goechala Trek?",
+       "Local sightseeing options near Goechala Trek?"
+    ],
+    "responses": [
+       "Near Goechala Trek, you can visit Yuksom, the historic town and the gateway to the Kangchenjunga National Park. Other attractions include Tashiding Monastery, Khecheopalri Lake, and Dzongri Viewpoint."
+    ],
+    "context_set": ""
+ }
+
+]
+
+}
+
+ 
