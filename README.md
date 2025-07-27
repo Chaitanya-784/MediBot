@@ -1,9 +1,3 @@
-Of course. Based on our entire conversation and the evolution of your project, I've crafted a comprehensive and impressive README document.
-
-This version is completely rewritten to reflect the final architecture of your application: the React frontend, the Node.js API backend, the Python AI server, and all the advanced features like multimodal analysis with Google Gemini, user authentication, and persistent chat history.
-
-This is the kind of detailed, professional README that stands out to recruiters.
-
 # **MediBot: Your Intelligent Health Companion**
 
  
@@ -41,8 +35,8 @@ This project is composed of three main services that work together.
 | **AI Service** | Python, Flask, Socket.IO, Google Gemini API, TensorFlow/Keras | Handles real-time chat, processes AI requests, and performs local intent classification. |
 
 ### System Architecture Diagram
-```
-![alt text](image.png)
+
+https://github.com/Chaitanya-784/MediBot/blob/main/image.png
 ```
 
 ## ⚙️ Getting Started: Local Setup
