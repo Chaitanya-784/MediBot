@@ -4,6 +4,8 @@ FROM python:3.9-slim
 # 2. Set the working directory
 WORKDIR /usr/src/app
 
+RUN apt-get update && apt-get install -y libmagic1
+
 # 3. Copy dependency manifest
 COPY requirements.txt ./
 
