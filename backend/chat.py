@@ -21,9 +21,6 @@ import base64
 import magic
 import io
 from PIL import Image
-import torch
-import timm
-from torchvision import transforms
 import fitz  # PyMuPDF
 
 
