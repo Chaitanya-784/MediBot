@@ -1,23 +1,20 @@
-# Use an official Python runtime as a parent image
-FROM python:3.11-slim
+# 1. Start from a base image
+FROM python:3.9-slim
 
-# Set the working directory in the container
+# 2. Set the working directory
 WORKDIR /usr/src/app
 
-# Install libmagic
-RUN apt-get update && apt-get install -y libmagic1
-
-# Copy the requirements file
+# 3. Copy dependency manifest
 COPY requirements.txt ./
 
-# Install any needed packages specified in requirements.txt
+# 4. Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Bundle app source
+# 5. Copy application source code
 COPY . .
 
-# Your app binds to port 5000
+# 6. Expose the port
 EXPOSE 5000
 
-# Define the command to run your app
+# 7. Define the startup command
 CMD [ "python", "chat.py" ]
