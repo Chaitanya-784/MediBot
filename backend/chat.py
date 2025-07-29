@@ -10,8 +10,6 @@ from keras.models import load_model
 import random
 import os
 import os
-print("[DEBUG] GOOGLE_API_KEY loaded:", os.environ.get('GOOGLE_API_KEY'))
-
 
 import google.generativeai as genai
 from flask import Flask
@@ -120,7 +118,7 @@ def handle_message(data):
         emit('recv_message', "Please type a message or upload a file.")
         return
 
-    print(f"[DEBUG] User: {user_message}" + (f" | File: {file_info['name']}" if file_info else ""))
+    
 
     # --- 1. Intent classifier gate (Original Logic) ---
     intent, prob = predict_class(user_message, model, words, classes)
