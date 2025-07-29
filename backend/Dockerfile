@@ -1,5 +1,5 @@
 # 1. Start from a base image
-FROM python:3.9-slim
+FROM python:3.10-slim
 
 # 2. Set the working directory
 WORKDIR /usr/src/app
