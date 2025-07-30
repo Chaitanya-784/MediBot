@@ -25,10 +25,10 @@ import fitz  # PyMuPDF
 
 
 project_root = os.path.dirname(os.path.dirname(__file__))
-print("prjct path:", project_root)
+
 dotenv_path = os.path.join(project_root, 'dbbackend', '.env')
 load_dotenv(dotenv_path=dotenv_path)
-print("ENV path:", dotenv_path)
+
 
 # Now get your key!
 GOOGLE_API_KEY = os.environ.get('GOOGLE_API_KEY')
@@ -37,11 +37,24 @@ genai.configure(api_key=GOOGLE_API_KEY)
 gemini_model = genai.GenerativeModel(model_name='models/gemini-1.5-flash')
 
 
-model = load_model('model.h5')
-with open('intents.json', encoding='utf-8') as file:
-    intents = json.load(file)
-words = pickle.load(open('word.pkl', 'rb'))
-classes = pickle.load(open('class.pkl', 'rb'))
+model = None
+words = None
+classes = None
+intents = None
+
+def lazy_load():
+    global model, words, classes, intents
+    if model is None:
+        print("[INFO] Lazy loading model and NLP files...")
+        model_path = os.path.join(os.path.dirname(__file__), "model.h5")
+        model = load_model(model_path)
+
+        with open(os.path.join(os.path.dirname(__file__), "intents.json"), encoding='utf-8') as f:
+            intents = json.load(f)
+
+        words = pickle.load(open(os.path.join(os.path.dirname(__file__), "word.pkl"), "rb"))
+        classes = pickle.load(open(os.path.join(os.path.dirname(__file__), "class.pkl"), "rb"))
+
 
 lemma = WordNetLemmatizer()
 user_sessions = {}
@@ -72,6 +85,7 @@ def bow(sentence, words):
     return bag
 
 def predict_class(sentence, model, words, classes, threshold=0.9):
+    lazy_load()
     if not sentence.strip(): return None, None
     bow_vec = bow(sentence, words)
     res = model.predict(np.array([bow_vec]), verbose=0)[0]
@@ -215,4 +229,5 @@ def handle_message(data):
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
+    print(f"Starting server on port {port}")
     socketio.run(app, host='0.0.0.0', port=port, debug=True)
