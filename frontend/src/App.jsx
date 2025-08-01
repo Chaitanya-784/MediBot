@@ -5,7 +5,11 @@ import backgroundImage from './assets/bgimge.jpg';
 import send_svg from './assets/send.svg';
 import { HiDotsVertical } from 'react-icons/hi';
 
-const socket = io('http://127.0.0.1:5000');
+
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+const SOCKET_URL = import.meta.env.VITE_SOCKET_URL;
+
+const socket = io(SOCKET_URL);
 
 function App() {
   // State initialization with logs
@@ -32,6 +36,8 @@ function App() {
   const [renameValue, setRenameValue] = useState('');
   const [selectedFile, setSelectedFile] = useState(null);
 
+
+
   // ConfirmDialog component
   const ConfirmDialog = ({ title, message, onConfirm, onCancel, confirmText = "Confirm" }) => (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
@@ -56,7 +62,7 @@ function App() {
     console.log('[fetchMessagesForSession]', { selectedSessionId });
     if (!selectedSessionId) return;
     try {
-      const res = await fetch(`http://localhost:5001/api/chat/messages/${selectedSessionId}`);
+      const res = await fetch(`${API_BASE_URL}/api/chat/messages/${selectedSessionId}`);
       console.log('[fetchMessagesForSession] Fetch status:', res.status, res.statusText);
       if (!res.ok) throw new Error(`Failed to fetch messages: ${res.statusText}`);
       const messages = await res.json();
@@ -78,7 +84,7 @@ function App() {
   const loadUserHistory = async (currentUserId) => {
     console.log('[loadUserHistory] For user:', currentUserId);
     try {
-      const sessionsRes = await fetch(`http://localhost:5001/api/chat/sessions/user/${currentUserId}`);
+      const sessionsRes = await fetch(`${API_BASE_URL}/api/chat/sessions/user/${currentUserId}`);
       console.log('[loadUserHistory] sessions fetch status:', sessionsRes.status, sessionsRes.statusText);
       if (!sessionsRes.ok) {
         throw new Error(`Failed to fetch sessions: ${sessionsRes.statusText}`);
@@ -94,7 +100,7 @@ function App() {
       const mostRecentSession = sessions[sessions.length - 1];
       const recentSessionId = mostRecentSession._id;
       console.log('[loadUserHistory] Fetching messages from session', recentSessionId);
-      const messagesRes = await fetch(`http://localhost:5001/api/chat/messages/${recentSessionId}`);
+      const messagesRes = await fetch(`${API_BASE_URL}/api/chat/messages/${recentSessionId}`);
       if (!messagesRes.ok) {
         throw new Error(`Failed to fetch messages: ${messagesRes.statusText}`);
       }
@@ -137,7 +143,7 @@ function App() {
       return;
     }
     try {
-      const res = await fetch(`http://localhost:5001/api/chat/messages/${sessionId}`);
+      const res = await fetch(`${API_BASE_URL}/api/chat/messages/${sessionId}`);
       const data = await res.json();
       console.log('[fetchChatHistory] Fetched:', data);
       if (data && data.length > 0) {
@@ -162,7 +168,7 @@ function App() {
   const confirmDelete = async () => {
     console.log('[confirmDelete] Pending:', pendingDelete);
     const { sessionId, index } = pendingDelete;
-    await fetch(`http://localhost:5001/api/chat/session/${sessionId}`, { method: 'DELETE' });
+    await fetch(`${API_BASE_URL}/api/chat/session/${sessionId}`, { method: 'DELETE' });
     const updated = [...chatHistory];
     updated.splice(index, 1);
     setChatHistory(updated);
@@ -173,7 +179,7 @@ function App() {
 
   const renameChat = async (sessionId, newTitle, index) => {
     console.log('[renameChat] sessionId:', sessionId, 'title:', newTitle, 'index:', index);
-    await fetch(`http://localhost:5001/api/chat/session/${sessionId}`, {
+    await fetch(`${API_BASE_URL}/api/chat/session/${sessionId}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ title: newTitle })
@@ -241,7 +247,7 @@ function App() {
           case 0:
             try {
               console.log('[Signup Step 0] Checking username:', msg);
-              const res = await fetch('http://localhost:5001/api/auth/check-username', {
+              const res = await fetch('${API_BASE_URL}/api/auth/check-username', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name: msg }),
@@ -269,7 +275,7 @@ function App() {
             }
             try {
               console.log('[Signup Step 1] Checking email:', msg);
-              const res = await fetch('http://localhost:5001/api/auth/check-email', {
+              const res = await fetch('${API_BASE_URL}/api/auth/check-email', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email: msg }),
@@ -302,7 +308,7 @@ function App() {
             setUserDetails(fullDetails);
             setChatMessage(prev => [...prev, { message: 'Sending OTP to your email...', self: false }]);
             console.log('[Signup Step 3] Register:', fullDetails);
-            await fetch('http://localhost:5001/api/auth/register', {
+            await fetch('${API_BASE_URL}/api/auth/register', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify(fullDetails),
@@ -311,7 +317,7 @@ function App() {
             setRegStep(4);
             break;
           case 4:
-            const verifyRes = await fetch('http://localhost:5001/api/auth/verify', {
+            const verifyRes = await fetch('${API_BASE_URL}/api/auth/verify', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({ email: userDetails.email, otp: msg }),
@@ -344,7 +350,7 @@ function App() {
       if (loginInitiated) {
         if (loginStep === 0) {
           console.log('[Login Step 0] Checking username:', msg);
-          const res = await fetch('http://localhost:5001/api/auth/username-exists', {
+          const res = await fetch('${API_BASE_URL}/api/auth/username-exists', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ name: msg })
@@ -360,7 +366,7 @@ function App() {
           }
         } else if (loginStep === 1) {
           console.log('[Login Step 1] Logging in for user:', userDetails.name);
-          const res = await fetch('http://localhost:5001/api/auth/login', {
+          const res = await fetch('${API_BASE_URL}/api/auth/login', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ name: userDetails.name, password: msg })
@@ -399,7 +405,7 @@ function App() {
       console.log('[sendMessageAndSave] sessionId:', currentSessionId, 'payload:', payload);
       if (!currentSessionId) {
         try {
-          const res = await fetch('http://localhost:5001/api/chat/startSession', {
+          const res = await fetch('${API_BASE_URL}/api/chat/startSession', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ userId, title: payload.message ? payload.message.slice(0, 30) : "New Chat" })
@@ -422,7 +428,7 @@ function App() {
       // Save user message to backend
       if (payload.message) {
         try {
-          const saveRes = await fetch('http://localhost:5001/api/chat/save', {
+          const saveRes = await fetch('${API_BASE_URL}/api/chat/save', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ userId, sessionId: currentSessionId, message: payload.message, sender: 'user' })
@@ -463,7 +469,7 @@ function App() {
       setChatMessage(prev => [...prev, { message: data, self: false }]);
       if (userId) {
         try {
-          await fetch('http://localhost:5001/api/chat/save', {
+          await fetch('${API_BASE_URL}/api/chat/save', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ userId, sessionId, message: data, sender: 'bot' })
@@ -494,7 +500,7 @@ function App() {
     console.log('[handleNewChat] currentUserId:', currentUserId);
     if (!currentUserId) return;
     try {
-      const res = await fetch('http://localhost:5001/api/chat/startSession', {
+      const res = await fetch('${API_BASE_URL}/api/chat/startSession', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
