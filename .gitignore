@@ -206,4 +206,14 @@ node_modules/
 package-lock.json
 
 
+# Dependencies
+node_modules
+
+# Environment Variables
+.env
 .env.local
+.env.*
+
+# Production build
+dist
+build
