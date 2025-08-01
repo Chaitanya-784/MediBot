@@ -3,6 +3,9 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 
+const PORT = process.env.PORT || 5001;
+
+
 const authRoutes = require('./routes/authRoutes');
 const chatRoutes = require('./routes/chatRoutes');
 
@@ -16,6 +19,6 @@ mongoose.connect(process.env.MONGO_URI)
 app.use('/api/auth', authRoutes);
 app.use('/api/chat', chatRoutes);
 
-app.listen(5001, () => {
-  console.log('Server running on port 5001');
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
