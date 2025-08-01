@@ -11,7 +11,7 @@ const chatRoutes = require('./routes/chatRoutes');
 
 const app = express();
 app.use(cors({
-  origin: 'https://medibot-ivory.vercel.app' 
+  origin: 'https://medibot-qaaq5buwq-chaitanya-gholaps-projects.vercel.app' 
 }));
 app.use(express.json());
 
