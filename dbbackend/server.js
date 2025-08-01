@@ -10,9 +10,7 @@ const authRoutes = require('./routes/authRoutes');
 const chatRoutes = require('./routes/chatRoutes');
 
 const app = express();
-app.use(cors({
-  origin: 'https://medibot-qaaq5buwq-chaitanya-gholaps-projects.vercel.app' 
-}));
+app.use(cors());
 app.use(express.json());
 
 mongoose.connect(process.env.MONGO_URI)
