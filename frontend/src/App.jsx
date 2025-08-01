@@ -11,6 +11,7 @@ const SOCKET_URL = import.meta.env.VITE_SOCKET_URL;
 
 const socket = io(SOCKET_URL);
 
+
 function App() {
   // State initialization with logs
   const [text, setText] = useState('');
@@ -35,6 +36,9 @@ function App() {
   const [pendingRename, setPendingRename] = useState(null);
   const [renameValue, setRenameValue] = useState('');
   const [selectedFile, setSelectedFile] = useState(null);
+
+  
+
 
 
 
@@ -247,7 +251,7 @@ function App() {
           case 0:
             try {
               console.log('[Signup Step 0] Checking username:', msg);
-              const res = await fetch('${API_BASE_URL}/api/auth/check-username', {
+              const res = await fetch(`${API_BASE_URL}/api/auth/check-username`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name: msg }),
@@ -275,7 +279,7 @@ function App() {
             }
             try {
               console.log('[Signup Step 1] Checking email:', msg);
-              const res = await fetch('${API_BASE_URL}/api/auth/check-email', {
+              const res = await fetch(`${API_BASE_URL}/api/auth/check-email`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email: msg }),
@@ -317,7 +321,7 @@ function App() {
             setRegStep(4);
             break;
           case 4:
-            const verifyRes = await fetch('${API_BASE_URL}/api/auth/verify', {
+            const verifyRes = await fetch(`${API_BASE_URL}/api/auth/verify`, {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({ email: userDetails.email, otp: msg }),
@@ -350,7 +354,7 @@ function App() {
       if (loginInitiated) {
         if (loginStep === 0) {
           console.log('[Login Step 0] Checking username:', msg);
-          const res = await fetch('${API_BASE_URL}/api/auth/username-exists', {
+          const res = await fetch(`${API_BASE_URL}/api/auth/username-exists`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ name: msg })
@@ -366,7 +370,7 @@ function App() {
           }
         } else if (loginStep === 1) {
           console.log('[Login Step 1] Logging in for user:', userDetails.name);
-          const res = await fetch('${API_BASE_URL}/api/auth/login', {
+          const res = await fetch(`${API_BASE_URL}/api/auth/login`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ name: userDetails.name, password: msg })
@@ -405,7 +409,7 @@ function App() {
       console.log('[sendMessageAndSave] sessionId:', currentSessionId, 'payload:', payload);
       if (!currentSessionId) {
         try {
-          const res = await fetch('${API_BASE_URL}/api/chat/startSession', {
+          const res = await fetch(`${API_BASE_URL}/api/chat/startSession`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ userId, title: payload.message ? payload.message.slice(0, 30) : "New Chat" })
@@ -428,7 +432,7 @@ function App() {
       // Save user message to backend
       if (payload.message) {
         try {
-          const saveRes = await fetch('${API_BASE_URL}/api/chat/save', {
+          const saveRes = await fetch(`${API_BASE_URL}/api/chat/save`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ userId, sessionId: currentSessionId, message: payload.message, sender: 'user' })
@@ -469,7 +473,7 @@ function App() {
       setChatMessage(prev => [...prev, { message: data, self: false }]);
       if (userId) {
         try {
-          await fetch('${API_BASE_URL}/api/chat/save', {
+          await fetch(`${API_BASE_URL}/api/chat/save`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ userId, sessionId, message: data, sender: 'bot' })
@@ -500,7 +504,7 @@ function App() {
     console.log('[handleNewChat] currentUserId:', currentUserId);
     if (!currentUserId) return;
     try {
-      const res = await fetch('${API_BASE_URL}/api/chat/startSession', {
+      const res = await fetch(`${API_BASE_URL}/api/chat/startSession`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
