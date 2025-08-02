@@ -144,7 +144,7 @@ This application is designed for a modern cloud deployment workflow:
 
 *   **Frontend (React)**: Deployed on **Vercel** for continuous integration and global CDN.
 *   **Backend API (Node.js)**: Deployed as a Web Service on **Render**.
-*   **AI Service (Python)**: Deployed as a separate Web Service on **Render**.
+*   **AI Service (Python)**: Deployed as a Web Service on **Google Cloud**.
 *   **Database**: Hosted on **MongoDB Atlas** using their free shared cluster.
 
 This architecture ensures scalability, low cost, and easy maintenance.
