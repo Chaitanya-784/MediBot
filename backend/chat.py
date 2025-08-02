@@ -114,9 +114,13 @@ def extract_questions(response):
     return questions
 
 # --- Flask & SocketIO Setup ---
+allowed_origins = [
+    "https://medibot-ivory.vercel.app",  # Your main production URL
+    # Add any other specific URLs you need to allow
+]
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret-key'
-socketio = SocketIO(app, cors_allowed_origins="*")
+socketio = SocketIO(app, cors_allowed_origins=allowed_origins)
 
 # --- Main Message Handler with Merged Logic ---
 @socketio.on('message')
