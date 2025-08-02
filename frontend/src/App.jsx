@@ -312,7 +312,7 @@ function App() {
             setUserDetails(fullDetails);
             setChatMessage(prev => [...prev, { message: 'Sending OTP to your email...', self: false }]);
             console.log('[Signup Step 3] Register:', fullDetails);
-            await fetch('${API_BASE_URL}/api/auth/register', {
+            await fetch(`${API_BASE_URL}/api/auth/register`, {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify(fullDetails),
