@@ -321,7 +321,7 @@ function App() {
             setRegStep(4);
             break;
           case 4:
-            const verifyRes = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/auth/verify`, {
+            const verifyRes = await fetch(`${API_BASE_URL}/api/auth/verify`, {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({ email: userDetails.email, otp: msg }),
