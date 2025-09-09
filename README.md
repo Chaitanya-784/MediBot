@@ -6,7 +6,7 @@
 
 This application features secure user authentication, persistent, account-based chat history, and a real-time, intuitive interface, making it a robust and scalable solution for preliminary health assistance.
 
-**[Live Demo Link](https://your-medibot-url.vercel.app)** 
+**[Live Demo Link](https://medibot-ivory.vercel.app/)** 
 
 ## 🚀 Key Features
 
