@@ -34,7 +34,7 @@ load_dotenv(dotenv_path=dotenv_path)
 GOOGLE_API_KEY = os.environ.get('GOOGLE_API_KEY')
 
 genai.configure(api_key=GOOGLE_API_KEY)
-gemini_model = genai.GenerativeModel(model_name='models/gemini-1.5-flash')
+gemini_model = genai.GenerativeModel(model_name='models/gemini-2.5-flash')
 
 
 model = None
